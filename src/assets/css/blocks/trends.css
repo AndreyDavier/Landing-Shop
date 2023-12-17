@@ -1,0 +1,135 @@
+.trends_stock_list {
+    display: flex;
+    position: relative;
+}
+
+.trends_stock_item {
+    display: flex;
+    flex-direction: column;
+    background-image: url(/img/6c98017788794c566bc5d346a0ef2b84.png);
+    background-repeat: no-repeat;
+    background-position-x: -200px;
+    /* background-position-y: -200px; */
+    padding-bottom: 200px;
+    padding-top: 200px;
+}
+
+.stock_info {
+    color: #023047;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 100%;
+}
+
+.trends_header {
+    color: #333;
+    font-size: 48px;
+    font-weight: 500;
+}
+
+.trends_stock_header {
+    color: #333;
+    font-size: 48px;
+    font-weight: 700;
+}
+
+.stock_button_text {
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 118%;
+}
+
+.trends_stock_button {
+    background: #fff;
+    border: 1px solid black;
+    padding: 0px 25px 0px 25px;
+    cursor: pointer;
+    transition: 0.20s;
+
+}
+
+.trends_stock_button:hover {
+    background: #023047;
+    color: #fff;
+}
+
+.trends_fire {
+    position: absolute;
+    top: 350px;
+    left: 550px;
+    z-index: 10;
+}
+
+.hystmodal {
+    display: none;
+    padding: 16px 35px 16px 20px;
+    box-shadow: 0px 8px 47px 0px rgba(0, 0, 0, 0.20);
+    gap: 20px;
+    width: 300px;
+    height: 174px;
+    position: absolute;
+    top: 385px;
+    left: 280px;
+    background: #fff;
+    transition: 0.15s;
+}
+
+.hystmodal:hover {
+    display: flex;
+}
+
+.hystmodal__window {
+    display: flex;
+    flex-direction: column;
+
+}
+
+.window_head {
+    color: #333;
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 129.5%;
+    margin: 0;
+}
+
+.window_new_price {
+    color: #333;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 129.5%;
+}
+
+.window_sale {
+    color: #A1A1A1;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 129.5%;
+    /* text-decoration: st; */
+}
+
+.hystmodal__add {
+    font-size: 12px;
+    font-weight: 700;
+    line-height: 129.5%;
+    padding: 12px 14px 12px 14px;
+    margin-top: 10px;
+    border: 1px solid black;
+    background: #fff;
+    cursor: pointer;
+    transition: 0.20s;
+}
+
+.hystmodal__add:hover {
+    color: #fff;
+    background: #023047;
+}
+
+.trends_fire:hover+.hystmodal {
+    display: flex;
+}
+
+/* .modul_window {
+    position: absolute;
+} */
+
+/* .trends_stock_item::after {} */

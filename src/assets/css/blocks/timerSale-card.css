@@ -1,0 +1,101 @@
+.timer-card {
+    padding: 115px 70px 115px 70px;
+    background: rgba(255, 255, 255, 0.10);
+    backdrop-filter: blur(5px);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 470px;
+}
+
+.timerSale-card {
+    display: flex;
+    justify-content: center;
+    gap: 230px;
+}
+
+.timer-card-items {
+    padding: 32px 60px 65px 60px;
+    border: 3px solid #FFF;
+    background: #FFF;
+}
+
+.timerSale-card-item {
+    display: flex;
+    gap: 15px;
+}
+
+.timerSale-header {
+    border: 3px solid #FFF;
+    padding-left: 34px;
+    padding-right: 33px;
+    margin-bottom: 32px;
+}
+
+.timer-item {
+    padding: 11px 11px 11px 12px;
+    border: 3px solid #FFF;
+    font-size: 36px;
+    color: #FFF;
+    font-weight: 600;
+}
+
+.timer-text {
+    color: #FFF;
+    font-size: 14px;
+    font-weight: 600;
+}
+
+.card-items {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.timer-head {
+    color: #FFF;
+    font-size: 36px;
+    text-align: center;
+    font-weight: 600;
+}
+
+.timer-link {
+    padding: 16px 29px 15px 29px;
+    border: 3px solid #FFF;
+    margin-top: 43px;
+}
+
+.timer-link:hover {
+    background-color: #023047;
+    cursor: pointer;
+}
+
+.link {
+    color: #FFF;
+    text-decoration: none;
+    font-size: 14px;
+    font-weight: 600;
+}
+
+.timer-card-products {
+    background: #FFF;
+    border: 1px solid #FFF;
+    padding-top: 32px;
+}
+
+.timer-card-products-items {
+    display: flex;
+    align-items: center;
+}
+
+
+.voucher-head {
+    margin-top: 30px;
+    align-items: center;
+}
+
+.voucher-info {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}

@@ -1,0 +1,77 @@
+.customer-swipers .customer-button-prev {
+    width: 40px;
+    height: 40px;
+    border: 1px solid #fff;
+    position: absolute;
+    top: calc(50% - 20px);
+    left: 0;
+    overflow: hidden;
+}
+
+.customer-swipers .customer-button-next {
+    width: 40px;
+    height: 40px;
+    border: 1px solid #fff;
+    position: absolute;
+    top: calc(50% - 20px);
+    right: 0;
+    overflow: hidden;
+    color: #fff;
+}
+
+.customer-swipers {
+    position: relative;
+    padding-left: 70px;
+    padding-right: 70px;
+}
+
+.swiper.customer-slider {
+    padding-bottom: 50px;
+}
+
+/* .customer-slider .pagination {
+    bottom: 0;
+} */
+
+
+.customer-swipers .customer-button-prev .swiper-svg {
+    color: #fff;
+}
+
+.customer-swipers .customer-button-next .swiper-svg {
+    color: #fff;
+}
+
+.customer-swipers .customer-button-next .swiper-svg:hover {
+    background: #fff;
+    color: black;
+}
+
+.customer-swipers .customer-button-prev .swiper-svg:hover {
+    background: #fff;
+    color: black;
+}
+
+.customer-swipers .pagination-customer .swiper-pagination-bullet {
+    background: transparent;
+    width: 14px;
+    height: 14px;
+    border: 1px solid white;
+    opacity: 1;
+
+}
+
+.customer-swipers .pagination-customer .swiper-pagination-bullet-active {
+    transform: scale(1.2);
+}
+
+.customer-swipers .pagination-customer .swiper-pagination-bullet-active::after {
+    background: white;
+    position: absolute;
+    width: 8px;
+    height: 8px;
+    top: 2px;
+    left: 2px;
+    content: "";
+    border-radius: 50%;
+}

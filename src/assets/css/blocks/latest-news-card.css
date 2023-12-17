@@ -1,0 +1,106 @@
+.latest-news-header {
+    text-align: center;
+    font-size: 30px;
+    font-weight: 500;
+}
+
+.latest-news-text {
+    font-weight: 400;
+    font-size: 14px;
+    color: #333;
+}
+
+.latest-news-info {
+    text-align: center;
+    font-size: 14px;
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0 auto;
+    margin-bottom: 45px;
+
+}
+
+.latest-card {
+    padding: 0px 0px 17px 0px;
+    border: 1px solid #E9E9E9;
+    transition: 0.15s ease-in-out;
+    position: relative;
+    transition: 0.20s;
+}
+
+.latest-news-card {
+    display: flex;
+    gap: 30px;
+    justify-content: center;
+}
+
+.latest-card-button {
+    padding-left: 24px;
+    padding-right: 23px;
+    border: 1px solid #666;
+    background: #FFF;
+    cursor: pointer;
+    color: #666;
+    font-weight: 500;
+    font-size: 14px;
+    transition: 0.20s;
+}
+
+.latest-card-button:hover {
+    background: #023047;
+    color: #FFF;
+    cursor: pointer;
+}
+
+.latest-card:hover {
+    background-color: #FFF;
+    cursor: pointer;
+    box-shadow: 0px 0px 45px 0px rgba(0, 0, 0, 0.20);
+}
+
+.fashion-card {
+    color: #FFF;
+    position: absolute;
+    top: 12px;
+    left: 12px;
+    font-size: 14px;
+    font-weight: 500;
+}
+
+.sale-card {
+    color: #FFF;
+    position: absolute;
+    top: 12px;
+    left: 12px;
+    font-size: 14px;
+    font-weight: 500;
+}
+
+.latest-date {
+    font-size: 10px;
+    font-weight: 500;
+}
+
+.latest-header {
+    font-size: 18px;
+    font-weight: 500;
+    text-decoration-line: underline;
+    line-height: 141.5%
+}
+
+.latest-card-img {
+    width: 100%;
+}
+
+.latest-card-info {
+    padding-left: 19px;
+    padding-right: 19px;
+}
+
+.latest-text {
+    color: #666;
+    font-size: 14px;
+    font-weight: 400;
+}

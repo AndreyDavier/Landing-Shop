@@ -1,0 +1,121 @@
+.footer-item-logo {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    width: 270px;
+}
+
+.footer-logo-ikon {
+    display: flex;
+    margin: 0 auto;
+    width: 300px;
+    gap: 10px;
+    margin-bottom: 14px;
+}
+
+.svg-footer {
+    color: #666;
+    cursor: pointer;
+    transition: 0.15s;
+}
+
+.svg-footer:hover {
+    color: #023047;
+}
+
+.logo-text {
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 160.5%;
+}
+
+.shop-poition-link {
+    color: #666;
+    text-decoration: none;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 160.5%;
+}
+
+.shop-poition-link:hover {
+    text-decoration: underline;
+}
+
+.footer-list {
+    display: flex;
+    justify-content: space-around;
+    gap: 30px;
+}
+
+.links-list {
+    display: flex;
+    flex-direction: column;
+}
+
+.links-item {
+    text-decoration: none;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 180%;
+    color: #000;
+}
+
+.links-item:hover {
+    text-decoration: underline;
+    color: #666;
+}
+
+.links-head {
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 160.5%;
+    color: #000;
+}
+
+.input_head {
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 160.5%;
+    color: #000;
+}
+
+.input_text {
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 160.5%;
+    width: 80%;
+    color: #000;
+}
+
+.form_input {
+    position: relative;
+}
+
+.footer_input {
+    border: none;
+    padding: 19px 12px 19px 15px;
+    width: 290px;
+    border: 1px solid #333;
+    padding-right: 70px;
+}
+
+.form_button {
+    border: none;
+    background: none;
+}
+
+.form_button {
+    position: absolute;
+    top: 10px;
+    left: 230px;
+}
+
+.form_svg {
+    border: 1px solid black;
+}
+
+.form_svg:hover {
+    background: #023047;
+    color: #fff;
+    cursor: pointer;
+}

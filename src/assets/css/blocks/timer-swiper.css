@@ -1,0 +1,24 @@
+.timer-card .swiper-button-prev {
+    width: 40px;
+    height: 40px;
+    border: 1px solid black;
+    position: absolute;
+}
+
+.timer-card .swiper-button-next {
+    width: 40px;
+    height: 40px;
+    border: 1px solid black;
+    position: absolute;
+}
+
+.timer-card {
+    position: relative;
+}
+
+.timer-swiper {
+    max-width: 100%;
+}
+.voucher-price{
+    margin-bottom: 15px;
+}

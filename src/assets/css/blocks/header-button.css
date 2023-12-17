@@ -1,0 +1,33 @@
+.button {
+  background: transparent;
+  border: none;
+  cursor: pointer;
+  transition: all 0.12s ease-in-out;
+}
+
+.button-profile {
+  display: flex;
+  gap: 5px;
+  background: #fff;
+  border-radius: 5px;
+  align-items: center;
+  color: #333333;
+
+}
+
+.button-profile:hover {
+  background: #023047;
+  color: #fff;
+}
+
+.button-profile:hover .button-name {
+  display: block;
+}
+
+.button-black {
+  color: #333333;
+}
+
+.button-black:hover {
+  color: gold;
+}

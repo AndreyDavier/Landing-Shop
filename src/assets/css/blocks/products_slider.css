@@ -1,0 +1,28 @@
+.product_slider_wrapper {
+    position: relative;
+    width: calc(100% + 140px);
+    padding: 0 70px;
+    margin-left: -70px;
+}
+
+.product_slider_wrapper .swiper-button-prev {
+    width: 40px;
+    height: 40px;
+    border: 1px solid black;
+    position: absolute;
+}
+
+.swiper-button-prev::after {
+    display: none;
+}
+
+.product_slider_wrapper .swiper-button-next {
+    width: 40px;
+    height: 40px;
+    border: 1px solid black;
+    position: absolute;
+}
+
+.swiper-button-next::after {
+    display: none;
+}

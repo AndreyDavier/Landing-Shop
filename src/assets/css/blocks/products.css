@@ -1,0 +1,37 @@
+.products-header {
+  margin-top: 187px;
+  font-size: 36px;
+  font-weight: 600;
+  text-align: center;
+}
+
+.products {
+  margin-bottom: 134px;
+  height: 854px;
+}
+
+.products-info {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  margin: 0 auto;
+  width: 50%;
+  margin-bottom: 73px;
+}
+
+.products-text {
+  text-align: center;
+  font-size: 14px;
+  font-weight: 400;
+}
+
+.products-card-price {
+  text-align: center;
+  font-size: 18px;
+  font-weight: 500;
+}
+
+.products-list {
+  display: flex;
+  align-items: center;
+}

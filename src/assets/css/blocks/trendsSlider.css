@@ -1,0 +1,53 @@
+.trends_slider_wrapper .swiper-button-prev {
+    width: 40px;
+    height: 40px;
+    border: 1px solid black;
+    position: absolute;
+}
+
+.trends_slider_wrapper .swiper-button-next {
+    width: 40px;
+    height: 40px;
+    border: 1px solid black;
+    position: absolute;
+}
+
+.trends_slider_wrapper {
+    position: relative;
+    width: calc(100% + 140px);
+    padding: 0 70px;
+    margin-left: -70px;
+}
+
+.trends_slider_wrapper .pagination-trends .swiper-pagination-bullet {
+    background: transparent;
+    width: 14px;
+    height: 14px;
+    border: 1px solid black;
+    opacity: 1;
+
+
+}
+
+.trends_slider_wrapper .pagination-trends .swiper-pagination-bullet-active {
+    transform: scale(1.2);
+
+}
+
+.trends_slider_wrapper .pagination-trends .swiper-pagination-bullet-active::after {
+    background: black;
+    position: absolute;
+    width: 8px;
+    height: 8px;
+    top: 2px;
+    left: 2px;
+    content: "";
+    
+    border-radius: 50%;
+}
+
+.trends_slider_wrapper .swiper-pagination {
+    bottom: 50px !important;
+    width: fit-content !important;
+    left: 390px !important;
+}

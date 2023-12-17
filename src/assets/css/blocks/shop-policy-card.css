@@ -1,0 +1,47 @@
+.shop-policy-card {
+    display: flex;
+    gap: 30px;
+}
+
+.shop-policy-item {
+    padding: 22px 50px 21px 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: 1px solid #CCC;
+    margin-top: 100px;
+    margin-bottom: 100px;
+    transition: 0.15s ease-in-out;
+}
+
+.shop-policy-item:hover {
+    box-shadow: 0px 0px 54px 0px rgba(0, 0, 0, 0.15);
+    border: none;
+    cursor: pointer;
+}
+
+.shop-policy-item:hover .shop-policy-ikon {
+    background: #023047;
+    cursor: pointer;
+}
+
+.policy-ikon {
+    color: gray;
+    transition: 0.15s ease-in-out;
+}
+
+.shop-policy-item:hover:hover .policy-ikon {
+    color: white;
+}
+
+.shop-policy-ikon {
+    width: 45px;
+    height: 45px;
+    background: rgb(228, 226, 226);
+    transition: 0.15s ease-in-out;
+}
+
+.shop-policy-head {
+    font-size: 24px;
+    font-weight: 600;
+}

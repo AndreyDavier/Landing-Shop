@@ -1,0 +1,1407 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Document</title>
+  <link rel="stylesheet" href="./css/style.css" />
+  <script defer src="./js/index.bundle.js"></script>
+</head>
+
+<body>
+  <header class="header">
+    <div class="conteiner">
+      <div class="header-main">
+        <div class="header-head">
+          <div class="logo">
+            <img class="logo-img" src="./img/Logo.png" alt="Logo" />
+          </div>
+        </div>
+        <nav class="header-nav nav">
+          <ul class="nav-list">
+            <li class="nav-items"><a class="nav-link" href="#">Home</a></li>
+            <li class="nav-items"><a class="nav-link" href="#">Shop</a></li>
+            <li class="nav-items"><a class="nav-link" href="#">Product</a></li>
+            <li class="nav-items"><a class="nav-link" href="#">Page</a></li>
+            <li class="nav-items"><a class="nav-link" href="#">Blog</a></li>
+          </ul>
+        </nav>
+        <div class="header-button">
+          <ul class="header-button-list">
+            <li class="button-items">
+              <button class="button button-black">
+                <svg xmlns="http://www.w3.org/2000/svg" width="21" height="20" viewBox="0 0 21 20" fill="none">
+                  <path
+                    d="M9.08256 0C13.9738 0 17.9434 3.96968 17.9434 8.86088C17.9434 13.7521 13.9738 17.7218 9.08256 17.7218C4.19136 17.7218 0.22168 13.7521 0.22168 8.86088C0.22168 3.96968 4.19136 0 9.08256 0ZM9.08256 15.7527C12.8898 15.7527 15.9744 12.6681 15.9744 8.86088C15.9744 5.05267 12.8898 1.96909 9.08256 1.96909C5.27435 1.96909 2.19077 5.05267 2.19077 8.86088C2.19077 12.6681 5.27435 15.7527 9.08256 15.7527ZM17.4364 15.8226L20.2217 18.6069L18.8286 20L16.0443 17.2147L17.4364 15.8226Z"
+                    fill="CurrentColor" />
+                </svg>
+              </button>
+            </li>
+            <li class="button-items">
+              <button class="button button-black">
+                <svg xmlns="http://www.w3.org/2000/svg" width="19" height="20" viewBox="0 0 19 20" fill="none">
+                  <path
+                    d="M17.2217 20H1.22168C0.956463 20 0.702109 19.8946 0.514573 19.7071C0.327036 19.5196 0.22168 19.2652 0.22168 19V1C0.22168 0.734784 0.327036 0.48043 0.514573 0.292893C0.702109 0.105357 0.956463 0 1.22168 0H17.2217C17.4869 0 17.7413 0.105357 17.9288 0.292893C18.1163 0.48043 18.2217 0.734784 18.2217 1V19C18.2217 19.2652 18.1163 19.5196 17.9288 19.7071C17.7413 19.8946 17.4869 20 17.2217 20ZM16.2217 18V2H2.22168V18H16.2217ZM6.22168 4V6C6.22168 6.79565 6.53775 7.55871 7.10036 8.12132C7.66297 8.68393 8.42603 9 9.22168 9C10.0173 9 10.7804 8.68393 11.343 8.12132C11.9056 7.55871 12.2217 6.79565 12.2217 6V4H14.2217V6C14.2217 7.32608 13.6949 8.59785 12.7572 9.53553C11.8195 10.4732 10.5478 11 9.22168 11C7.8956 11 6.62383 10.4732 5.68615 9.53553C4.74846 8.59785 4.22168 7.32608 4.22168 6V4H6.22168Z"
+                    fill="CurrentColor" />
+                </svg>
+              </button>
+            </li>
+            <li class="button-items">
+              <button class="button button-black">
+                <svg xmlns="http://www.w3.org/2000/svg" width="21" height="19" viewBox="0 0 21 19" fill="none">
+                  <path
+                    d="M10.2227 1.52898C12.5717 -0.58002 16.2017 -0.51002 18.4647 1.75698C20.7267 4.02498 20.8047 7.63698 18.7007 9.99298L10.2207 18.485L1.74269 9.99298C-0.361314 7.63698 -0.282314 4.01898 1.97869 1.75698C4.24369 -0.50702 7.86669 -0.58302 10.2227 1.52898ZM17.0487 3.16998C15.5487 1.66798 13.1287 1.60698 11.5587 3.01698L10.2237 4.21498L8.88769 3.01798C7.31269 1.60598 4.89769 1.66798 3.39369 3.17198C1.90369 4.66198 1.82869 7.04698 3.20169 8.62298L10.2217 15.654L17.2417 8.62398C18.6157 7.04698 18.5407 4.66498 17.0487 3.16998Z"
+                    fill="CurrentColor" />
+                </svg>
+              </button>
+            </li>
+            <li class="button-items">
+              <button class="button button-profile header-button">
+                <img src="./img/womenlogo.png" alt="" />
+                <p class="button-name">Genesis Harber</p>
+              </button>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </header>
+  <main class="main">
+    <section class="trends">
+      <div class="conteiner">
+        <div class="trends_slider_wrapper">
+
+          <div id="trends_stock" class="swiper trends_stock" data-slider="1">
+            <ul class="trends_stock_list  swiper-wrapper">
+              <li class="swiper-slide">
+                <div class="trends_stock_item ">
+                  <div class="trends_stock_info">
+                    <span class="stock_info">Trends Stock!</span>
+                    <p class="trends_header">SHORT TOP <br><span class="trends_stock_header">KEEP YOU PRETTY</span></p>
+                    <button class="trends_stock_button">
+                      <p class="stock_button_text">SHOP NOW</p>
+                    </button>
+                  </div>
+                  <div class="modul_window">
+                    <span class="trends_fire">
+                      <svg xmlns="http://www.w3.org/2000/svg" width="63" height="62" viewBox="0 0 63 62" fill="none">
+                        <g filter="url(#filter0_d_306_445)">
+                          <circle cx="31.2217" cy="31" r="20" fill="white" />
+                        </g>
+                        <path
+                          d="M28.5393 39.6178C26.5462 38.873 24.8696 37.7766 24.34 35.5157C24.0306 34.1933 24.3662 32.9326 24.905 31.7257C25.1132 31.2594 25.339 30.7937 25.618 30.3682C26.0725 29.6751 26.4308 28.9468 26.6205 28.136C26.6857 27.7564 26.714 27.3776 26.6085 27.0001C26.5391 26.9463 26.537 26.8523 26.5745 26.8093C26.6659 26.7052 26.7494 26.8243 26.816 26.8638C27.9891 27.5555 28.5364 28.7889 28.2809 30.1436C28.2766 30.1666 28.2801 30.191 28.2801 30.2139C28.7963 29.7181 29.1758 28.1302 29.1036 26.6407C29.0413 25.3549 28.6157 24.1695 28.0451 23.0408C28.1152 22.9641 28.1697 23.015 28.2143 23.0372C29.6877 23.7806 31.0053 24.7306 32.0235 26.0587C32.8858 27.1831 33.3453 28.4467 33.2363 29.9068C33.8898 28.2443 34.8343 26.8624 36.615 26.1857C36.501 26.6191 36.3913 27.003 36.2992 27.3912C36.045 28.461 36.0542 29.4842 36.5208 30.5325C37.2027 32.0637 37.5106 33.6889 37.3237 35.3851C37.0872 37.5298 35.6889 39.2016 33.6293 39.9421C33.2774 39.927 32.9255 39.9428 32.5736 39.9342C32.4985 39.9321 32.3881 39.9751 32.3633 39.8668C32.3435 39.7807 32.4228 39.7161 32.4922 39.6694C32.7272 39.5116 32.9581 39.3523 33.1457 39.1313C33.7843 38.3779 33.7723 37.4989 33.637 36.5956C33.6109 36.4198 33.5585 36.2476 33.5046 36.0775C33.1882 35.3578 33.0409 34.621 33.3404 33.8453C33.1464 33.8209 33.0664 33.935 32.9658 34.0053C32.6062 34.2399 32.3945 34.5994 32.1778 34.9553C32.124 35.0436 32.0851 35.1792 31.9612 35.1569C31.8613 35.139 31.8585 35.0091 31.8344 34.9187C31.5045 33.691 30.9395 32.995 29.7047 32.3378C29.8725 32.7095 29.9851 33.0489 30.0573 33.4012C30.1776 33.9888 30.1359 34.5643 29.9249 35.1247C29.8845 35.2316 29.8392 35.3909 29.7061 35.3708C29.5666 35.3492 29.5921 35.1828 29.5822 35.0701C29.5447 34.6525 29.3436 34.3311 28.9846 34.0218C29.0328 34.7436 28.6844 35.2725 28.3623 35.8199C28.101 36.2634 27.9325 36.747 27.8999 37.2722C27.8631 37.8584 28.004 38.3822 28.4125 38.8156C28.5591 38.9706 28.7191 39.1126 28.8402 39.292C28.8933 39.3925 29.0321 39.4958 28.9549 39.602C28.8487 39.7498 28.6816 39.6393 28.5393 39.6178Z"
+                          fill="#E40D0E" />
+                        <path
+                          d="M33.5698 36.0216C33.9266 37.1324 34.0024 38.2108 33.2235 39.1945C32.9991 39.478 32.6826 39.6408 32.4029 39.9422C32.8129 39.9422 33.2228 39.9422 33.6314 39.9422C32.2514 39.9551 30.8729 40.0132 29.4951 39.935C29.5744 39.7384 29.7089 39.892 29.7889 39.8633C29.4066 39.8016 29.0483 39.6215 28.7651 39.3022C28.1541 38.7949 27.7406 38.1857 27.7951 37.3412C27.8376 36.6811 28.0706 36.0841 28.4239 35.5388C28.7481 35.0386 28.974 34.5184 28.8635 33.844C29.4455 34.2063 29.7238 34.6705 29.7181 35.3142C30.2413 34.2544 30.0417 33.2312 29.5496 32.2195C30.5295 32.3522 31.6815 33.7335 31.9795 35.147C32.2316 34.6763 32.4652 34.2192 32.9134 33.9394C33.3035 33.8397 33.3517 33.8755 33.2653 34.2357C33.1117 34.8772 33.2476 35.4648 33.5698 36.0216Z"
+                          fill="#EDE41C" />
+                        <path
+                          d="M28.7644 39.302C29.1297 39.5051 29.4859 39.7289 29.9199 39.8552C29.7641 39.965 29.6204 39.8947 29.4944 39.9349C29.1701 39.848 28.8373 39.7878 28.5392 39.6177C28.6561 39.6177 28.7729 39.6177 28.8904 39.6177C28.9393 39.4613 28.7481 39.4261 28.7644 39.302Z"
+                          fill="#CE220E" />
+                        <path
+                          d="M26.6092 27C26.7805 27.3767 26.7508 27.7556 26.6212 28.1358C26.624 27.757 26.6687 27.3781 26.6092 27Z"
+                          fill="#C53234" />
+                        <path
+                          d="M33.5698 36.0216C33.2689 35.6147 33.082 35.1727 33.1592 34.6497C33.1762 34.5341 33.1747 34.41 33.2179 34.3052C33.3581 33.9659 33.1691 33.9285 32.9128 33.9393C33.0487 33.7793 33.23 33.7119 33.4608 33.6501C33.3985 33.9336 33.3539 34.1876 33.2859 34.4344C33.1259 35.012 33.4374 35.4992 33.5698 36.0216Z"
+                          fill="#F6CB34" />
+                        <defs>
+                          <filter id="filter0_d_306_445" x="0.22168" y="0" width="62" height="62"
+                            filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+                            <feFlood flood-opacity="0" result="BackgroundImageFix" />
+                            <feColorMatrix in="SourceAlpha" type="matrix"
+                              values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" result="hardAlpha" />
+                            <feOffset />
+                            <feGaussianBlur stdDeviation="5.5" />
+                            <feComposite in2="hardAlpha" operator="out" />
+                            <feColorMatrix type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.25 0" />
+                            <feBlend mode="normal" in2="BackgroundImageFix" result="effect1_dropShadow_306_445" />
+                            <feBlend mode="normal" in="SourceGraphic" in2="effect1_dropShadow_306_445" result="shape" />
+                          </filter>
+                        </defs>
+                      </svg>
+                    </span>
+                    <div class="hystmodal" id="myModal">
+                      <div class="window_img">
+                        <img class="coc_img" src="/img/cocktail.png" alt="">
+                      </div>
+                      <div class="hystmodal__window">
+                        <div class="window_info">
+                          <h4 class="window_head">Solid Color<br> Sleeveless</h4>
+                        </div>
+                        <div class="window_price">
+                          <span class="window_new_price">$100 </span><span class="window_sale">$130</span>
+                        </div>
+                        <button data-hystclose class="hystmodal__add">ADD TO CART</button>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </li>
+              <li class="trends_stock_item swiper-slide">
+                <div class="trends_stock_info">
+                  <span class="stock_info">Trends Stock!</span>
+                  <p class="trends_header">SHORT TOP <br><span class="trends_stock_header">KEEP YOU PRETTY</span></p>
+                  <button class="trends_stock_button">
+                    <p class="stock_button_text">SHOP NOW</p>
+                  </button>
+                </div>
+                <div class="modul_window">
+                  <span class="trends_fire">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="63" height="62" viewBox="0 0 63 62" fill="none">
+                      <g filter="url(#filter0_d_306_445)">
+                        <circle cx="31.2217" cy="31" r="20" fill="white" />
+                      </g>
+                      <path
+                        d="M28.5393 39.6178C26.5462 38.873 24.8696 37.7766 24.34 35.5157C24.0306 34.1933 24.3662 32.9326 24.905 31.7257C25.1132 31.2594 25.339 30.7937 25.618 30.3682C26.0725 29.6751 26.4308 28.9468 26.6205 28.136C26.6857 27.7564 26.714 27.3776 26.6085 27.0001C26.5391 26.9463 26.537 26.8523 26.5745 26.8093C26.6659 26.7052 26.7494 26.8243 26.816 26.8638C27.9891 27.5555 28.5364 28.7889 28.2809 30.1436C28.2766 30.1666 28.2801 30.191 28.2801 30.2139C28.7963 29.7181 29.1758 28.1302 29.1036 26.6407C29.0413 25.3549 28.6157 24.1695 28.0451 23.0408C28.1152 22.9641 28.1697 23.015 28.2143 23.0372C29.6877 23.7806 31.0053 24.7306 32.0235 26.0587C32.8858 27.1831 33.3453 28.4467 33.2363 29.9068C33.8898 28.2443 34.8343 26.8624 36.615 26.1857C36.501 26.6191 36.3913 27.003 36.2992 27.3912C36.045 28.461 36.0542 29.4842 36.5208 30.5325C37.2027 32.0637 37.5106 33.6889 37.3237 35.3851C37.0872 37.5298 35.6889 39.2016 33.6293 39.9421C33.2774 39.927 32.9255 39.9428 32.5736 39.9342C32.4985 39.9321 32.3881 39.9751 32.3633 39.8668C32.3435 39.7807 32.4228 39.7161 32.4922 39.6694C32.7272 39.5116 32.9581 39.3523 33.1457 39.1313C33.7843 38.3779 33.7723 37.4989 33.637 36.5956C33.6109 36.4198 33.5585 36.2476 33.5046 36.0775C33.1882 35.3578 33.0409 34.621 33.3404 33.8453C33.1464 33.8209 33.0664 33.935 32.9658 34.0053C32.6062 34.2399 32.3945 34.5994 32.1778 34.9553C32.124 35.0436 32.0851 35.1792 31.9612 35.1569C31.8613 35.139 31.8585 35.0091 31.8344 34.9187C31.5045 33.691 30.9395 32.995 29.7047 32.3378C29.8725 32.7095 29.9851 33.0489 30.0573 33.4012C30.1776 33.9888 30.1359 34.5643 29.9249 35.1247C29.8845 35.2316 29.8392 35.3909 29.7061 35.3708C29.5666 35.3492 29.5921 35.1828 29.5822 35.0701C29.5447 34.6525 29.3436 34.3311 28.9846 34.0218C29.0328 34.7436 28.6844 35.2725 28.3623 35.8199C28.101 36.2634 27.9325 36.747 27.8999 37.2722C27.8631 37.8584 28.004 38.3822 28.4125 38.8156C28.5591 38.9706 28.7191 39.1126 28.8402 39.292C28.8933 39.3925 29.0321 39.4958 28.9549 39.602C28.8487 39.7498 28.6816 39.6393 28.5393 39.6178Z"
+                        fill="#E40D0E" />
+                      <path
+                        d="M33.5698 36.0216C33.9266 37.1324 34.0024 38.2108 33.2235 39.1945C32.9991 39.478 32.6826 39.6408 32.4029 39.9422C32.8129 39.9422 33.2228 39.9422 33.6314 39.9422C32.2514 39.9551 30.8729 40.0132 29.4951 39.935C29.5744 39.7384 29.7089 39.892 29.7889 39.8633C29.4066 39.8016 29.0483 39.6215 28.7651 39.3022C28.1541 38.7949 27.7406 38.1857 27.7951 37.3412C27.8376 36.6811 28.0706 36.0841 28.4239 35.5388C28.7481 35.0386 28.974 34.5184 28.8635 33.844C29.4455 34.2063 29.7238 34.6705 29.7181 35.3142C30.2413 34.2544 30.0417 33.2312 29.5496 32.2195C30.5295 32.3522 31.6815 33.7335 31.9795 35.147C32.2316 34.6763 32.4652 34.2192 32.9134 33.9394C33.3035 33.8397 33.3517 33.8755 33.2653 34.2357C33.1117 34.8772 33.2476 35.4648 33.5698 36.0216Z"
+                        fill="#EDE41C" />
+                      <path
+                        d="M28.7644 39.302C29.1297 39.5051 29.4859 39.7289 29.9199 39.8552C29.7641 39.965 29.6204 39.8947 29.4944 39.9349C29.1701 39.848 28.8373 39.7878 28.5392 39.6177C28.6561 39.6177 28.7729 39.6177 28.8904 39.6177C28.9393 39.4613 28.7481 39.4261 28.7644 39.302Z"
+                        fill="#CE220E" />
+                      <path
+                        d="M26.6092 27C26.7805 27.3767 26.7508 27.7556 26.6212 28.1358C26.624 27.757 26.6687 27.3781 26.6092 27Z"
+                        fill="#C53234" />
+                      <path
+                        d="M33.5698 36.0216C33.2689 35.6147 33.082 35.1727 33.1592 34.6497C33.1762 34.5341 33.1747 34.41 33.2179 34.3052C33.3581 33.9659 33.1691 33.9285 32.9128 33.9393C33.0487 33.7793 33.23 33.7119 33.4608 33.6501C33.3985 33.9336 33.3539 34.1876 33.2859 34.4344C33.1259 35.012 33.4374 35.4992 33.5698 36.0216Z"
+                        fill="#F6CB34" />
+                      <defs>
+                        <filter id="filter0_d_306_445" x="0.22168" y="0" width="62" height="62"
+                          filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+                          <feFlood flood-opacity="0" result="BackgroundImageFix" />
+                          <feColorMatrix in="SourceAlpha" type="matrix"
+                            values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" result="hardAlpha" />
+                          <feOffset />
+                          <feGaussianBlur stdDeviation="5.5" />
+                          <feComposite in2="hardAlpha" operator="out" />
+                          <feColorMatrix type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.25 0" />
+                          <feBlend mode="normal" in2="BackgroundImageFix" result="effect1_dropShadow_306_445" />
+                          <feBlend mode="normal" in="SourceGraphic" in2="effect1_dropShadow_306_445" result="shape" />
+                        </filter>
+                      </defs>
+                    </svg>
+                  </span>
+                  <div class="hystmodal" id="myModal">
+                    <div class="window_img">
+                      <img class="coc_img" src="/img/cocktail.png" alt="">
+                    </div>
+                    <div class="hystmodal__window">
+                      <div class="window_info">
+                        <h4 class="window_head">Solid Color<br> Sleeveless</h4>
+                      </div>
+                      <div class="window_price">
+                        <span class="window_new_price">$100 </span><span class="window_sale">$130</span>
+                      </div>
+                      <button data-hystclose class="hystmodal__add">ADD TO CART</button>
+                    </div>
+                  </div>
+                </div>
+              </li>
+              <li class="trends_stock_item swiper-slide">
+                <div class="trends_stock_info">
+                  <span class="stock_info">Trends Stock!</span>
+                  <p class="trends_header">SHORT TOP <br><span class="trends_stock_header">KEEP YOU PRETTY</span></p>
+                  <button class="trends_stock_button">
+                    <p class="stock_button_text">SHOP NOW</p>
+                  </button>
+                </div>
+                <div class="modul_window">
+                  <span class="trends_fire">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="63" height="62" viewBox="0 0 63 62" fill="none">
+                      <g filter="url(#filter0_d_306_445)">
+                        <circle cx="31.2217" cy="31" r="20" fill="white" />
+                      </g>
+                      <path
+                        d="M28.5393 39.6178C26.5462 38.873 24.8696 37.7766 24.34 35.5157C24.0306 34.1933 24.3662 32.9326 24.905 31.7257C25.1132 31.2594 25.339 30.7937 25.618 30.3682C26.0725 29.6751 26.4308 28.9468 26.6205 28.136C26.6857 27.7564 26.714 27.3776 26.6085 27.0001C26.5391 26.9463 26.537 26.8523 26.5745 26.8093C26.6659 26.7052 26.7494 26.8243 26.816 26.8638C27.9891 27.5555 28.5364 28.7889 28.2809 30.1436C28.2766 30.1666 28.2801 30.191 28.2801 30.2139C28.7963 29.7181 29.1758 28.1302 29.1036 26.6407C29.0413 25.3549 28.6157 24.1695 28.0451 23.0408C28.1152 22.9641 28.1697 23.015 28.2143 23.0372C29.6877 23.7806 31.0053 24.7306 32.0235 26.0587C32.8858 27.1831 33.3453 28.4467 33.2363 29.9068C33.8898 28.2443 34.8343 26.8624 36.615 26.1857C36.501 26.6191 36.3913 27.003 36.2992 27.3912C36.045 28.461 36.0542 29.4842 36.5208 30.5325C37.2027 32.0637 37.5106 33.6889 37.3237 35.3851C37.0872 37.5298 35.6889 39.2016 33.6293 39.9421C33.2774 39.927 32.9255 39.9428 32.5736 39.9342C32.4985 39.9321 32.3881 39.9751 32.3633 39.8668C32.3435 39.7807 32.4228 39.7161 32.4922 39.6694C32.7272 39.5116 32.9581 39.3523 33.1457 39.1313C33.7843 38.3779 33.7723 37.4989 33.637 36.5956C33.6109 36.4198 33.5585 36.2476 33.5046 36.0775C33.1882 35.3578 33.0409 34.621 33.3404 33.8453C33.1464 33.8209 33.0664 33.935 32.9658 34.0053C32.6062 34.2399 32.3945 34.5994 32.1778 34.9553C32.124 35.0436 32.0851 35.1792 31.9612 35.1569C31.8613 35.139 31.8585 35.0091 31.8344 34.9187C31.5045 33.691 30.9395 32.995 29.7047 32.3378C29.8725 32.7095 29.9851 33.0489 30.0573 33.4012C30.1776 33.9888 30.1359 34.5643 29.9249 35.1247C29.8845 35.2316 29.8392 35.3909 29.7061 35.3708C29.5666 35.3492 29.5921 35.1828 29.5822 35.0701C29.5447 34.6525 29.3436 34.3311 28.9846 34.0218C29.0328 34.7436 28.6844 35.2725 28.3623 35.8199C28.101 36.2634 27.9325 36.747 27.8999 37.2722C27.8631 37.8584 28.004 38.3822 28.4125 38.8156C28.5591 38.9706 28.7191 39.1126 28.8402 39.292C28.8933 39.3925 29.0321 39.4958 28.9549 39.602C28.8487 39.7498 28.6816 39.6393 28.5393 39.6178Z"
+                        fill="#E40D0E" />
+                      <path
+                        d="M33.5698 36.0216C33.9266 37.1324 34.0024 38.2108 33.2235 39.1945C32.9991 39.478 32.6826 39.6408 32.4029 39.9422C32.8129 39.9422 33.2228 39.9422 33.6314 39.9422C32.2514 39.9551 30.8729 40.0132 29.4951 39.935C29.5744 39.7384 29.7089 39.892 29.7889 39.8633C29.4066 39.8016 29.0483 39.6215 28.7651 39.3022C28.1541 38.7949 27.7406 38.1857 27.7951 37.3412C27.8376 36.6811 28.0706 36.0841 28.4239 35.5388C28.7481 35.0386 28.974 34.5184 28.8635 33.844C29.4455 34.2063 29.7238 34.6705 29.7181 35.3142C30.2413 34.2544 30.0417 33.2312 29.5496 32.2195C30.5295 32.3522 31.6815 33.7335 31.9795 35.147C32.2316 34.6763 32.4652 34.2192 32.9134 33.9394C33.3035 33.8397 33.3517 33.8755 33.2653 34.2357C33.1117 34.8772 33.2476 35.4648 33.5698 36.0216Z"
+                        fill="#EDE41C" />
+                      <path
+                        d="M28.7644 39.302C29.1297 39.5051 29.4859 39.7289 29.9199 39.8552C29.7641 39.965 29.6204 39.8947 29.4944 39.9349C29.1701 39.848 28.8373 39.7878 28.5392 39.6177C28.6561 39.6177 28.7729 39.6177 28.8904 39.6177C28.9393 39.4613 28.7481 39.4261 28.7644 39.302Z"
+                        fill="#CE220E" />
+                      <path
+                        d="M26.6092 27C26.7805 27.3767 26.7508 27.7556 26.6212 28.1358C26.624 27.757 26.6687 27.3781 26.6092 27Z"
+                        fill="#C53234" />
+                      <path
+                        d="M33.5698 36.0216C33.2689 35.6147 33.082 35.1727 33.1592 34.6497C33.1762 34.5341 33.1747 34.41 33.2179 34.3052C33.3581 33.9659 33.1691 33.9285 32.9128 33.9393C33.0487 33.7793 33.23 33.7119 33.4608 33.6501C33.3985 33.9336 33.3539 34.1876 33.2859 34.4344C33.1259 35.012 33.4374 35.4992 33.5698 36.0216Z"
+                        fill="#F6CB34" />
+                      <defs>
+                        <filter id="filter0_d_306_445" x="0.22168" y="0" width="62" height="62"
+                          filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+                          <feFlood flood-opacity="0" result="BackgroundImageFix" />
+                          <feColorMatrix in="SourceAlpha" type="matrix"
+                            values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" result="hardAlpha" />
+                          <feOffset />
+                          <feGaussianBlur stdDeviation="5.5" />
+                          <feComposite in2="hardAlpha" operator="out" />
+                          <feColorMatrix type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.25 0" />
+                          <feBlend mode="normal" in2="BackgroundImageFix" result="effect1_dropShadow_306_445" />
+                          <feBlend mode="normal" in="SourceGraphic" in2="effect1_dropShadow_306_445" result="shape" />
+                        </filter>
+                      </defs>
+                    </svg>
+                  </span>
+                  <div class="hystmodal" id="myModal">
+                    <div class="window_img">
+                      <img class="coc_img" src="/img/cocktail.png" alt="">
+                    </div>
+                    <div class="hystmodal__window">
+                      <div class="window_info">
+                        <h4 class="window_head">Solid Color<br> Sleeveless</h4>
+                      </div>
+                      <div class="window_price">
+                        <span class="window_new_price">$100 </span><span class="window_sale">$130</span>
+                      </div>
+                      <button data-hystclose class="hystmodal__add">ADD TO CART</button>
+                    </div>
+                  </div>
+                </div>
+              </li>
+            </ul>
+            <div class="swiper-pagination pagination-trends">
+            </div>
+          </div>
+          <div id="trends_stock-prev" class="swiper-button-prev" data-slider-prev>
+            <svg class="swiper-svg" xmlns="http://www.w3.org/2000/svg" width="41" height="40" viewBox="0 0 41 40"
+              fill="none">
+              <path
+                d="M19.0496 20.364L23.9996 15.414L22.5856 14L16.2216 20.364L22.5856 26.728L23.9996 25.314L19.0496 20.364Z"
+                fill="CurrentColor" />
+            </svg>
+          </div>
+          <div id="trends_stock-next" class="swiper-button-next" data-slider-next>
+            <svg class="swiper-svg" xmlns="http://www.w3.org/2000/svg" width="41" height="40" viewBox="0 0 41 40"
+              fill="none">
+              <path
+                d="M21.1717 20.364L16.2217 15.414L17.6357 14L23.9997 20.364L17.6357 26.728L16.2217 25.314L21.1717 20.364Z"
+                fill="CurrentColor" />
+            </svg>
+
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="collections">
+      <div class="conteiner">
+        <ul class="collections-grid">
+          <li class="collections-item collections-item-col2">
+            <article class="collection-card collection-card-wide">
+              <div class="collection-card-info">
+                <span class="collection-card-sale">Get Extra 50% Off</span>
+                <h2 class="collection-card-head">New Woman Collection</h2>
+                <p class="collection-card-text">Special Promo</p>
+                <button class="collection-card-button">
+                  <p class="card-button-text">Find Collection</p>
+                </button>
+              </div>
+            </article>
+          </li>
+          <li class="collections-item collections-item-row2 ">
+            <article class="collection-card collection-card-tall">
+              <div class="collection-card-info">
+                <span class="collection-card-sale2">30-60% Off On</span>
+                <h2 class="collection-card-head collection-card-head2  ">Woman Watch Collection</h2>
+                <button class="collection-card-button">
+                  <p class="card-button-text">Shop Now</p>
+                </button>
+              </div>
+            </article>
+          </li>
+          <li class="collections-item">
+            <article class="collection-card collections-item-row3">
+              <div class="collection-card-info">
+                <div class="collection-card-img">
+                  <img class="collection-img" src="./img/michael-kors.svg" alt="" />
+                </div>
+                <span class="collection-card-sale2">70% Off On </span>
+                <h2 class="collection-card-head2">Woman Wath Collection</h2>
+                <button class="collection-card-button">
+                  <p class="card-button-text">Shop Now</p>
+                </button>
+              </div>
+            </article>
+          </li>
+          <li class="collections-item ">
+            <article class="collection-card">
+              <div class="collection-card-info">
+                <div class="collection-card-img">
+                  <img class="collection-img" src="./img/michael-kors-handbag.svg" alt="" />
+                </div>
+                <span class="collection-card-sale2">70% Off On </span>
+                <h2 class="collection-card-head2">Woman Mackup</h2>
+                <button class="collection-card-button">
+                  <p class="card-button-text">Shop Now</p>
+                </button>
+              </div>
+            </article>
+          </li>
+        </ul>
+      </div>
+    </section>
+    <section class="products">
+      <div class="conteiner">
+        <div class="products-info">
+          <h2 class="products-header">Best Selling Products</h2>
+          <p class="products-text">
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+            eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
+            enim ad minim veniam.
+          </p>
+        </div>
+        <div class="product_slider_wrapper">
+          <div id="product_slider" class="swiper product_slider" data-slider="4">
+            <ul class="products-list swiper-wrapper">
+              <li class="products-items  swiper-slide">
+                <article class="product-card product-card-colum1">
+                  <span class="sale">Sale</span>
+                  <ul class="product-card-ikon">
+                    <li class="card-ikon">
+                      <button class="button ikon-button ">
+                        <svg class="svg-ikon" xmlns="http://www.w3.org/2000/svg" width="30" height="30"
+                          viewBox="0 0 30 30" fill="none">
+                          <path fill-rule="evenodd" clip-rule="evenodd"
+                            d="M8.51094 14.6882C7.6763 12.0824 8.65173 9.10402 11.3874 8.22272C12.8264 7.75834 14.4148 8.03214 15.6112 8.93212C16.7429 8.05703 18.3896 7.76145 19.8271 8.22272C22.5628 9.10402 23.5444 12.0824 22.7106 14.6882C21.4116 18.8186 15.6112 22 15.6112 22C15.6112 22 9.8535 18.8668 8.51094 14.6882Z"
+                            stroke="CurrentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+                        </svg>
+                      </button>
+                    </li>
+                    <li class="card-ikon">
+                      <button class="button ikon-button ">
+                        <svg class="svg-ikon" width="30px" height="30px" viewBox="0 0 21 21"
+                          xmlns="http://www.w3.org/2000/svg">
+                          <g fill="none" fill-rule="evenodd" stroke="CurrentColor" stroke-linecap="round"
+                            stroke-linejoin="round" transform="translate(4 4)">
+                            <path
+                              d="m5.5 7.5c.96940983 1.36718798 3.01111566 1.12727011 4.01111565 0l1.98888435-2c1.1243486-1.22807966 1.1641276-2.81388365 0-4-1.135619-1.15706921-2.86438099-1.15706947-4 0l-2 2" />
+                            <path
+                              d="m7.5 6.56977319c-.96940983-1.36718798-3-1.1970433-4-.06977319l-2 1.97487373c-1.12434863 1.22807966-1.16412758 2.83900987 0 4.02512627 1.13561901 1.1570692 2.86438099 1.1570695 4 0l2-2" />
+                          </g>
+                        </svg>
+                      </button>
+                    </li>
+                    <li class="card-ikon">
+                      <button class="button ikon-button ">
+                        <svg class="svg-ikon" width="30px" height="30px" viewBox="0 0 32 32" version="1.1"
+                          xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
+                          xmlns:sketch="http://www.bohemiancoding.com/sketch/ns">
+                          <g id="Page-1" stroke="CurrentColor" stroke-width="1" fill="none" fill-rule="evenodd"
+                            sketch:type="MSPage">
+                            <g id="Icon-Set" sketch:type="MSLayerGroup" transform="translate(-308.000000, -1139.000000)"
+                              fill="CurrentColor">
+                              <path
+                                d="M321.46,1163.45 C315.17,1163.45 310.07,1158.44 310.07,1152.25 C310.07,1146.06 315.17,1141.04 321.46,1141.04 C327.75,1141.04 332.85,1146.06 332.85,1152.25 C332.85,1158.44 327.75,1163.45 321.46,1163.45 L321.46,1163.45 Z M339.688,1169.25 L331.429,1161.12 C333.592,1158.77 334.92,1155.67 334.92,1152.25 C334.92,1144.93 328.894,1139 321.46,1139 C314.026,1139 308,1144.93 308,1152.25 C308,1159.56 314.026,1165.49 321.46,1165.49 C324.672,1165.49 327.618,1164.38 329.932,1162.53 L338.225,1170.69 C338.629,1171.09 339.284,1171.09 339.688,1170.69 C340.093,1170.3 340.093,1169.65 339.688,1169.25 L339.688,1169.25 Z M326.519,1151.41 L322.522,1151.41 L322.522,1147.41 C322.522,1146.85 322.075,1146.41 321.523,1146.41 C320.972,1146.41 320.524,1146.85 320.524,1147.41 L320.524,1151.41 L316.529,1151.41 C315.978,1151.41 315.53,1151.59 315.53,1152.14 C315.53,1152.7 315.978,1153.41 316.529,1153.41 L320.524,1153.41 L320.524,1157.41 C320.524,1157.97 320.972,1158.41 321.523,1158.41 C322.075,1158.41 322.522,1157.97 322.522,1157.41 L322.522,1153.41 L326.519,1153.41 C327.07,1153.41 327.518,1152.96 327.518,1152.41 C327.518,1151.86 327.07,1151.41 326.519,1151.41 L326.519,1151.41 Z"
+                                id="zoom-in" sketch:type="MSShapeGroup">
+                              </path>
+                            </g>
+                          </g>
+                        </svg>
+                      </button>
+                    </li>
+                  </ul>
+                  <div class="product-card-info">
+                    <div class="product-card-img">
+                      <img class="card-img" src="/img/hoody1.png" alt=" hoody">
+                    </div>
+                    <div class="product-card-tex">
+                      <h3 class="products-card-header">Woman Sweet Hoodie</h3>
+                      <p class="products-card-price">$250.00</p>
+                    </div>
+                  </div>
+                  <div class="product-card-button">
+                    <button class="product-button">
+                      <svg xmlns="http://www.w3.org/2000/svg" width="12" height="12" viewBox="0 0 12 12" fill="none">
+                        <path
+                          d="M10.4217 12H0.82168C0.66255 12 0.509937 11.9368 0.397416 11.8243C0.284894 11.7117 0.22168 11.5591 0.22168 11.4V0.6C0.22168 0.44087 0.284894 0.288258 0.397416 0.175736C0.509937 0.0632141 0.66255 0 0.82168 0H10.4217C10.5808 0 10.7334 0.0632141 10.8459 0.175736C10.9585 0.288258 11.0217 0.44087 11.0217 0.6V11.4C11.0217 11.5591 10.9585 11.7117 10.8459 11.8243C10.7334 11.9368 10.5808 12 10.4217 12ZM3.82168 2.4H2.62168V3.6C2.62168 4.39565 2.93775 5.15871 3.50036 5.72132C4.06297 6.28393 4.82603 6.6 5.62168 6.6C6.41733 6.6 7.18039 6.28393 7.743 5.72132C8.30561 5.15871 8.62168 4.39565 8.62168 3.6V2.4H7.42168V3.6C7.42168 4.07739 7.23204 4.53523 6.89447 4.87279C6.55691 5.21036 6.09907 5.4 5.62168 5.4C5.14429 5.4 4.68645 5.21036 4.34889 4.87279C4.01132 4.53523 3.82168 4.07739 3.82168 3.6V2.4Z"
+                          fill="CurrentColor" />
+                      </svg>
+                      <p class="product-button-text">ADD TO BAG</p>
+                    </button>
+                  </div>
+                </article>
+              </li>
+              <li class="products-items  swiper-slide">
+                <article class="product-card product-card-colum1">
+                  <ul class="product-card-ikon">
+                    <li class="card-ikon">
+                      <button class="button ikon-button ">
+                        <svg class="svg-ikon" xmlns="http://www.w3.org/2000/svg" width="30" height="30"
+                          viewBox="0 0 30 30" fill="none">
+                          <path fill-rule="evenodd" clip-rule="evenodd"
+                            d="M8.51094 14.6882C7.6763 12.0824 8.65173 9.10402 11.3874 8.22272C12.8264 7.75834 14.4148 8.03214 15.6112 8.93212C16.7429 8.05703 18.3896 7.76145 19.8271 8.22272C22.5628 9.10402 23.5444 12.0824 22.7106 14.6882C21.4116 18.8186 15.6112 22 15.6112 22C15.6112 22 9.8535 18.8668 8.51094 14.6882Z"
+                            stroke="CurrentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+                        </svg>
+                      </button>
+                    </li>
+                    <li class="card-ikon">
+                      <button class="button ikon-button ">
+                        <svg class="svg-ikon" width="30px" height="30px" viewBox="0 0 21 21"
+                          xmlns="http://www.w3.org/2000/svg">
+                          <g fill="none" fill-rule="evenodd" stroke="CurrentColor" stroke-linecap="round"
+                            stroke-linejoin="round" transform="translate(4 4)">
+                            <path
+                              d="m5.5 7.5c.96940983 1.36718798 3.01111566 1.12727011 4.01111565 0l1.98888435-2c1.1243486-1.22807966 1.1641276-2.81388365 0-4-1.135619-1.15706921-2.86438099-1.15706947-4 0l-2 2" />
+                            <path
+                              d="m7.5 6.56977319c-.96940983-1.36718798-3-1.1970433-4-.06977319l-2 1.97487373c-1.12434863 1.22807966-1.16412758 2.83900987 0 4.02512627 1.13561901 1.1570692 2.86438099 1.1570695 4 0l2-2" />
+                          </g>
+                        </svg>
+                      </button>
+                    </li>
+                    <li class="card-ikon">
+                      <button class="button ikon-button ">
+                        <svg class="svg-ikon" width="30px" height="30px" viewBox="0 0 32 32" version="1.1"
+                          xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
+                          xmlns:sketch="http://www.bohemiancoding.com/sketch/ns">
+                          <g id="Page-1" stroke="CurrentColor" stroke-width="1" fill="none" fill-rule="evenodd"
+                            sketch:type="MSPage">
+                            <g id="Icon-Set" sketch:type="MSLayerGroup" transform="translate(-308.000000, -1139.000000)"
+                              fill="CurrentColor">
+                              <path
+                                d="M321.46,1163.45 C315.17,1163.45 310.07,1158.44 310.07,1152.25 C310.07,1146.06 315.17,1141.04 321.46,1141.04 C327.75,1141.04 332.85,1146.06 332.85,1152.25 C332.85,1158.44 327.75,1163.45 321.46,1163.45 L321.46,1163.45 Z M339.688,1169.25 L331.429,1161.12 C333.592,1158.77 334.92,1155.67 334.92,1152.25 C334.92,1144.93 328.894,1139 321.46,1139 C314.026,1139 308,1144.93 308,1152.25 C308,1159.56 314.026,1165.49 321.46,1165.49 C324.672,1165.49 327.618,1164.38 329.932,1162.53 L338.225,1170.69 C338.629,1171.09 339.284,1171.09 339.688,1170.69 C340.093,1170.3 340.093,1169.65 339.688,1169.25 L339.688,1169.25 Z M326.519,1151.41 L322.522,1151.41 L322.522,1147.41 C322.522,1146.85 322.075,1146.41 321.523,1146.41 C320.972,1146.41 320.524,1146.85 320.524,1147.41 L320.524,1151.41 L316.529,1151.41 C315.978,1151.41 315.53,1151.59 315.53,1152.14 C315.53,1152.7 315.978,1153.41 316.529,1153.41 L320.524,1153.41 L320.524,1157.41 C320.524,1157.97 320.972,1158.41 321.523,1158.41 C322.075,1158.41 322.522,1157.97 322.522,1157.41 L322.522,1153.41 L326.519,1153.41 C327.07,1153.41 327.518,1152.96 327.518,1152.41 C327.518,1151.86 327.07,1151.41 326.519,1151.41 L326.519,1151.41 Z"
+                                id="zoom-in" sketch:type="MSShapeGroup">
+                              </path>
+                            </g>
+                          </g>
+                        </svg>
+                      </button>
+                    </li>
+                  </ul>
+                  <div class="product-card-info">
+                    <img class="card-img" src="/img/hoody2.png" alt=" hoody">
+                  </div>
+                  <div class="product-card-text">
+                    <h3 class="products-card-header">Woman Summer Hoodie</h3>
+                    <p class="products-card-price">$150.00</p>
+                  </div>
+                  <div class="product-card-button">
+                    <button class="product-button">
+                      <svg xmlns="http://www.w3.org/2000/svg" width="12" height="12" viewBox="0 0 12 12" fill="none">
+                        <path
+                          d="M10.4217 12H0.82168C0.66255 12 0.509937 11.9368 0.397416 11.8243C0.284894 11.7117 0.22168 11.5591 0.22168 11.4V0.6C0.22168 0.44087 0.284894 0.288258 0.397416 0.175736C0.509937 0.0632141 0.66255 0 0.82168 0H10.4217C10.5808 0 10.7334 0.0632141 10.8459 0.175736C10.9585 0.288258 11.0217 0.44087 11.0217 0.6V11.4C11.0217 11.5591 10.9585 11.7117 10.8459 11.8243C10.7334 11.9368 10.5808 12 10.4217 12ZM3.82168 2.4H2.62168V3.6C2.62168 4.39565 2.93775 5.15871 3.50036 5.72132C4.06297 6.28393 4.82603 6.6 5.62168 6.6C6.41733 6.6 7.18039 6.28393 7.743 5.72132C8.30561 5.15871 8.62168 4.39565 8.62168 3.6V2.4H7.42168V3.6C7.42168 4.07739 7.23204 4.53523 6.89447 4.87279C6.55691 5.21036 6.09907 5.4 5.62168 5.4C5.14429 5.4 4.68645 5.21036 4.34889 4.87279C4.01132 4.53523 3.82168 4.07739 3.82168 3.6V2.4Z"
+                          fill="CurrentColor" />
+                      </svg>
+                      <p class="product-button-text">ADD TO BAG</p>
+                    </button>
+                  </div>
+                </article>
+              </li>
+              <li class="products-items  swiper-slide">
+                <article class="product-card product-card-colum1 ">
+                  <ul class="product-card-ikon">
+                    <li class="card-ikon">
+                      <button class="button ikon-button ">
+                        <svg class="svg-ikon" xmlns="http://www.w3.org/2000/svg" width="30" height="30"
+                          viewBox="0 0 30 30" fill="none">
+                          <path fill-rule="evenodd" clip-rule="evenodd"
+                            d="M8.51094 14.6882C7.6763 12.0824 8.65173 9.10402 11.3874 8.22272C12.8264 7.75834 14.4148 8.03214 15.6112 8.93212C16.7429 8.05703 18.3896 7.76145 19.8271 8.22272C22.5628 9.10402 23.5444 12.0824 22.7106 14.6882C21.4116 18.8186 15.6112 22 15.6112 22C15.6112 22 9.8535 18.8668 8.51094 14.6882Z"
+                            stroke="CurrentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+                        </svg>
+                      </button>
+                    </li>
+                    <li class="card-ikon">
+                      <button class="button ikon-button">
+                        <svg class="svg-ikon" width="30px" height="30px" viewBox="0 0 21 21"
+                          xmlns="http://www.w3.org/2000/svg">
+                          <g fill="none" fill-rule="evenodd" stroke="CurrentColor" stroke-linecap="round"
+                            stroke-linejoin="round" transform="translate(4 4)">
+                            <path
+                              d="m5.5 7.5c.96940983 1.36718798 3.01111566 1.12727011 4.01111565 0l1.98888435-2c1.1243486-1.22807966 1.1641276-2.81388365 0-4-1.135619-1.15706921-2.86438099-1.15706947-4 0l-2 2" />
+                            <path
+                              d="m7.5 6.56977319c-.96940983-1.36718798-3-1.1970433-4-.06977319l-2 1.97487373c-1.12434863 1.22807966-1.16412758 2.83900987 0 4.02512627 1.13561901 1.1570692 2.86438099 1.1570695 4 0l2-2" />
+                          </g>
+                        </svg>
+                      </button>
+                    </li>
+                    <li class="card-ikon">
+                      <button class="button ikon-button ">
+                        <svg class="svg-ikon" width="30px" height="30px" viewBox="0 0 32 32" version="1.1"
+                          xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
+                          xmlns:sketch="http://www.bohemiancoding.com/sketch/ns">
+                          <g id="Page-1" stroke="CurrentColor" stroke-width="1" fill="none" fill-rule="evenodd"
+                            sketch:type="MSPage">
+                            <g id="Icon-Set" sketch:type="MSLayerGroup" transform="translate(-308.000000, -1139.000000)"
+                              fill="CurrentColor">
+                              <path
+                                d="M321.46,1163.45 C315.17,1163.45 310.07,1158.44 310.07,1152.25 C310.07,1146.06 315.17,1141.04 321.46,1141.04 C327.75,1141.04 332.85,1146.06 332.85,1152.25 C332.85,1158.44 327.75,1163.45 321.46,1163.45 L321.46,1163.45 Z M339.688,1169.25 L331.429,1161.12 C333.592,1158.77 334.92,1155.67 334.92,1152.25 C334.92,1144.93 328.894,1139 321.46,1139 C314.026,1139 308,1144.93 308,1152.25 C308,1159.56 314.026,1165.49 321.46,1165.49 C324.672,1165.49 327.618,1164.38 329.932,1162.53 L338.225,1170.69 C338.629,1171.09 339.284,1171.09 339.688,1170.69 C340.093,1170.3 340.093,1169.65 339.688,1169.25 L339.688,1169.25 Z M326.519,1151.41 L322.522,1151.41 L322.522,1147.41 C322.522,1146.85 322.075,1146.41 321.523,1146.41 C320.972,1146.41 320.524,1146.85 320.524,1147.41 L320.524,1151.41 L316.529,1151.41 C315.978,1151.41 315.53,1151.59 315.53,1152.14 C315.53,1152.7 315.978,1153.41 316.529,1153.41 L320.524,1153.41 L320.524,1157.41 C320.524,1157.97 320.972,1158.41 321.523,1158.41 C322.075,1158.41 322.522,1157.97 322.522,1157.41 L322.522,1153.41 L326.519,1153.41 C327.07,1153.41 327.518,1152.96 327.518,1152.41 C327.518,1151.86 327.07,1151.41 326.519,1151.41 L326.519,1151.41 Z"
+                                id="zoom-in" sketch:type="MSShapeGroup">
+                              </path>
+                            </g>
+                          </g>
+                        </svg>
+                      </button>
+                    </li>
+                  </ul>
+                  <div class="product-card-info">
+                    <img class="card-img" src="/img/plush.png" alt=" hoody">
+                  </div>
+                  <div class="product-card-text">
+                    <h3 class="products-card-header">Winter Plush Warm Cotton</h3>
+                    <p class="products-card-price">$370.00</p>
+                  </div>
+                  <div class="product-card-button">
+                    <button class="product-button">
+                      <svg xmlns="http://www.w3.org/2000/svg" width="12" height="12" viewBox="0 0 12 12" fill="none">
+                        <path
+                          d="M10.4217 12H0.82168C0.66255 12 0.509937 11.9368 0.397416 11.8243C0.284894 11.7117 0.22168 11.5591 0.22168 11.4V0.6C0.22168 0.44087 0.284894 0.288258 0.397416 0.175736C0.509937 0.0632141 0.66255 0 0.82168 0H10.4217C10.5808 0 10.7334 0.0632141 10.8459 0.175736C10.9585 0.288258 11.0217 0.44087 11.0217 0.6V11.4C11.0217 11.5591 10.9585 11.7117 10.8459 11.8243C10.7334 11.9368 10.5808 12 10.4217 12ZM3.82168 2.4H2.62168V3.6C2.62168 4.39565 2.93775 5.15871 3.50036 5.72132C4.06297 6.28393 4.82603 6.6 5.62168 6.6C6.41733 6.6 7.18039 6.28393 7.743 5.72132C8.30561 5.15871 8.62168 4.39565 8.62168 3.6V2.4H7.42168V3.6C7.42168 4.07739 7.23204 4.53523 6.89447 4.87279C6.55691 5.21036 6.09907 5.4 5.62168 5.4C5.14429 5.4 4.68645 5.21036 4.34889 4.87279C4.01132 4.53523 3.82168 4.07739 3.82168 3.6V2.4Z"
+                          fill="CurrentColor" />
+                      </svg>
+                      <p class="product-button-text">ADD TO BAG</p>
+                    </button>
+                  </div>
+                </article>
+              </li>
+              <li class="products-items  swiper-slide">
+                <article class="product-card product-card-colum1">
+                  <ul class="product-card-ikon">
+                    <li class="card-ikon">
+                      <button class="button ikon-button ">
+                        <svg class="svg-ikon" xmlns="http://www.w3.org/2000/svg" width="30" height="30"
+                          viewBox="0 0 30 30" fill="none">
+                          <path fill-rule="evenodd" clip-rule="evenodd"
+                            d="M8.51094 14.6882C7.6763 12.0824 8.65173 9.10402 11.3874 8.22272C12.8264 7.75834 14.4148 8.03214 15.6112 8.93212C16.7429 8.05703 18.3896 7.76145 19.8271 8.22272C22.5628 9.10402 23.5444 12.0824 22.7106 14.6882C21.4116 18.8186 15.6112 22 15.6112 22C15.6112 22 9.8535 18.8668 8.51094 14.6882Z"
+                            stroke="CurrentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+                        </svg>
+                      </button>
+                    </li>
+                    <li class="card-ikon">
+                      <button class="button ikon-button ">
+                        <svg class="svg-ikon" width="30px" height="30px" viewBox="0 0 21 21"
+                          xmlns="http://www.w3.org/2000/svg">
+                          <g fill="none" fill-rule="evenodd" stroke="CurrentColor" stroke-linecap="round"
+                            stroke-linejoin="round" transform="translate(4 4)">
+                            <path
+                              d="m5.5 7.5c.96940983 1.36718798 3.01111566 1.12727011 4.01111565 0l1.98888435-2c1.1243486-1.22807966 1.1641276-2.81388365 0-4-1.135619-1.15706921-2.86438099-1.15706947-4 0l-2 2" />
+                            <path
+                              d="m7.5 6.56977319c-.96940983-1.36718798-3-1.1970433-4-.06977319l-2 1.97487373c-1.12434863 1.22807966-1.16412758 2.83900987 0 4.02512627 1.13561901 1.1570692 2.86438099 1.1570695 4 0l2-2" />
+                          </g>
+                        </svg>
+                      </button>
+                    </li>
+                    <li class="card-ikon">
+                      <button class="button ikon-button ">
+                        <svg class="svg-ikon" width="30px" height="30px" viewBox="0 0 32 32" version="1.1"
+                          xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
+                          xmlns:sketch="http://www.bohemiancoding.com/sketch/ns">
+                          <g id="Page-1" stroke="CurrentColor" stroke-width="1" fill="none" fill-rule="evenodd"
+                            sketch:type="MSPage">
+                            <g id="Icon-Set" sketch:type="MSLayerGroup" transform="translate(-308.000000, -1139.000000)"
+                              fill="CurrentColor">
+                              <path
+                                d="M321.46,1163.45 C315.17,1163.45 310.07,1158.44 310.07,1152.25 C310.07,1146.06 315.17,1141.04 321.46,1141.04 C327.75,1141.04 332.85,1146.06 332.85,1152.25 C332.85,1158.44 327.75,1163.45 321.46,1163.45 L321.46,1163.45 Z M339.688,1169.25 L331.429,1161.12 C333.592,1158.77 334.92,1155.67 334.92,1152.25 C334.92,1144.93 328.894,1139 321.46,1139 C314.026,1139 308,1144.93 308,1152.25 C308,1159.56 314.026,1165.49 321.46,1165.49 C324.672,1165.49 327.618,1164.38 329.932,1162.53 L338.225,1170.69 C338.629,1171.09 339.284,1171.09 339.688,1170.69 C340.093,1170.3 340.093,1169.65 339.688,1169.25 L339.688,1169.25 Z M326.519,1151.41 L322.522,1151.41 L322.522,1147.41 C322.522,1146.85 322.075,1146.41 321.523,1146.41 C320.972,1146.41 320.524,1146.85 320.524,1147.41 L320.524,1151.41 L316.529,1151.41 C315.978,1151.41 315.53,1151.59 315.53,1152.14 C315.53,1152.7 315.978,1153.41 316.529,1153.41 L320.524,1153.41 L320.524,1157.41 C320.524,1157.97 320.972,1158.41 321.523,1158.41 C322.075,1158.41 322.522,1157.97 322.522,1157.41 L322.522,1153.41 L326.519,1153.41 C327.07,1153.41 327.518,1152.96 327.518,1152.41 C327.518,1151.86 327.07,1151.41 326.519,1151.41 L326.519,1151.41 Z"
+                                id="zoom-in" sketch:type="MSShapeGroup">
+                              </path>
+                            </g>
+                          </g>
+                        </svg>
+                      </button>
+                    </li>
+                  </ul>
+
+                  <div class="product-card-info">
+                    <img class="card-img" src="/img/cutton.png" alt=" hoody">
+                  </div>
+                  <div class="product-card-text">
+                    <h3 class="products-card-header">Women Cotton Shirts</h3>
+                    <p class="products-card-price">$150.00</p>
+                  </div>
+                  <div class="product-card-button">
+                    <button class="product-button">
+                      <svg xmlns="http://www.w3.org/2000/svg" width="12" height="12" viewBox="0 0 12 12" fill="none">
+                        <path
+                          d="M10.4217 12H0.82168C0.66255 12 0.509937 11.9368 0.397416 11.8243C0.284894 11.7117 0.22168 11.5591 0.22168 11.4V0.6C0.22168 0.44087 0.284894 0.288258 0.397416 0.175736C0.509937 0.0632141 0.66255 0 0.82168 0H10.4217C10.5808 0 10.7334 0.0632141 10.8459 0.175736C10.9585 0.288258 11.0217 0.44087 11.0217 0.6V11.4C11.0217 11.5591 10.9585 11.7117 10.8459 11.8243C10.7334 11.9368 10.5808 12 10.4217 12ZM3.82168 2.4H2.62168V3.6C2.62168 4.39565 2.93775 5.15871 3.50036 5.72132C4.06297 6.28393 4.82603 6.6 5.62168 6.6C6.41733 6.6 7.18039 6.28393 7.743 5.72132C8.30561 5.15871 8.62168 4.39565 8.62168 3.6V2.4H7.42168V3.6C7.42168 4.07739 7.23204 4.53523 6.89447 4.87279C6.55691 5.21036 6.09907 5.4 5.62168 5.4C5.14429 5.4 4.68645 5.21036 4.34889 4.87279C4.01132 4.53523 3.82168 4.07739 3.82168 3.6V2.4Z"
+                          fill="CurrentColor" />
+                      </svg>
+                      <p class="product-button-text">ADD TO BAG</p>
+                    </button>
+                  </div>
+                </article>
+              </li>
+              <li class="products-items  swiper-slide">
+                <article class="product-card product-card-colum1">
+                  <ul class="product-card-ikon">
+                    <li class="card-ikon">
+                      <button class="button ikon-button ">
+                        <svg class="svg-ikon" xmlns="http://www.w3.org/2000/svg" width="30" height="30"
+                          viewBox="0 0 30 30" fill="none">
+                          <path fill-rule="evenodd" clip-rule="evenodd"
+                            d="M8.51094 14.6882C7.6763 12.0824 8.65173 9.10402 11.3874 8.22272C12.8264 7.75834 14.4148 8.03214 15.6112 8.93212C16.7429 8.05703 18.3896 7.76145 19.8271 8.22272C22.5628 9.10402 23.5444 12.0824 22.7106 14.6882C21.4116 18.8186 15.6112 22 15.6112 22C15.6112 22 9.8535 18.8668 8.51094 14.6882Z"
+                            stroke="CurrentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+                        </svg>
+                      </button>
+                    </li>
+                    <li class="card-ikon">
+                      <button class="button ikon-button ">
+                        <svg class="svg-ikon" width="30px" height="30px" viewBox="0 0 21 21"
+                          xmlns="http://www.w3.org/2000/svg">
+                          <g fill="none" fill-rule="evenodd" stroke="CurrentColor" stroke-linecap="round"
+                            stroke-linejoin="round" transform="translate(4 4)">
+                            <path
+                              d="m5.5 7.5c.96940983 1.36718798 3.01111566 1.12727011 4.01111565 0l1.98888435-2c1.1243486-1.22807966 1.1641276-2.81388365 0-4-1.135619-1.15706921-2.86438099-1.15706947-4 0l-2 2" />
+                            <path
+                              d="m7.5 6.56977319c-.96940983-1.36718798-3-1.1970433-4-.06977319l-2 1.97487373c-1.12434863 1.22807966-1.16412758 2.83900987 0 4.02512627 1.13561901 1.1570692 2.86438099 1.1570695 4 0l2-2" />
+                          </g>
+                        </svg>
+                      </button>
+                    </li>
+                    <li class="card-ikon">
+                      <button class="button ikon-button ">
+                        <svg class="svg-ikon" width="30px" height="30px" viewBox="0 0 32 32" version="1.1"
+                          xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
+                          xmlns:sketch="http://www.bohemiancoding.com/sketch/ns">
+                          <g id="Page-1" stroke="CurrentColor" stroke-width="1" fill="none" fill-rule="evenodd"
+                            sketch:type="MSPage">
+                            <g id="Icon-Set" sketch:type="MSLayerGroup" transform="translate(-308.000000, -1139.000000)"
+                              fill="CurrentColor">
+                              <path
+                                d="M321.46,1163.45 C315.17,1163.45 310.07,1158.44 310.07,1152.25 C310.07,1146.06 315.17,1141.04 321.46,1141.04 C327.75,1141.04 332.85,1146.06 332.85,1152.25 C332.85,1158.44 327.75,1163.45 321.46,1163.45 L321.46,1163.45 Z M339.688,1169.25 L331.429,1161.12 C333.592,1158.77 334.92,1155.67 334.92,1152.25 C334.92,1144.93 328.894,1139 321.46,1139 C314.026,1139 308,1144.93 308,1152.25 C308,1159.56 314.026,1165.49 321.46,1165.49 C324.672,1165.49 327.618,1164.38 329.932,1162.53 L338.225,1170.69 C338.629,1171.09 339.284,1171.09 339.688,1170.69 C340.093,1170.3 340.093,1169.65 339.688,1169.25 L339.688,1169.25 Z M326.519,1151.41 L322.522,1151.41 L322.522,1147.41 C322.522,1146.85 322.075,1146.41 321.523,1146.41 C320.972,1146.41 320.524,1146.85 320.524,1147.41 L320.524,1151.41 L316.529,1151.41 C315.978,1151.41 315.53,1151.59 315.53,1152.14 C315.53,1152.7 315.978,1153.41 316.529,1153.41 L320.524,1153.41 L320.524,1157.41 C320.524,1157.97 320.972,1158.41 321.523,1158.41 C322.075,1158.41 322.522,1157.97 322.522,1157.41 L322.522,1153.41 L326.519,1153.41 C327.07,1153.41 327.518,1152.96 327.518,1152.41 C327.518,1151.86 327.07,1151.41 326.519,1151.41 L326.519,1151.41 Z"
+                                id="zoom-in" sketch:type="MSShapeGroup">
+                              </path>
+                            </g>
+                          </g>
+                        </svg>
+                      </button>
+                    </li>
+                  </ul>
+                  <div class="product-card-info">
+                    <img class="card-img" src="/img/cutton.png" alt=" hoody">
+                  </div>
+                  <div class="product-card-text">
+                    <h3 class="products-card-header">Women Cotton Shirts</h3>
+                    <p class="products-card-price">$150.00</p>
+                  </div>
+                  <div class="product-card-button">
+                    <button class="product-button">
+                      <svg xmlns="http://www.w3.org/2000/svg" width="12" height="12" viewBox="0 0 12 12" fill="none">
+                        <path
+                          d="M10.4217 12H0.82168C0.66255 12 0.509937 11.9368 0.397416 11.8243C0.284894 11.7117 0.22168 11.5591 0.22168 11.4V0.6C0.22168 0.44087 0.284894 0.288258 0.397416 0.175736C0.509937 0.0632141 0.66255 0 0.82168 0H10.4217C10.5808 0 10.7334 0.0632141 10.8459 0.175736C10.9585 0.288258 11.0217 0.44087 11.0217 0.6V11.4C11.0217 11.5591 10.9585 11.7117 10.8459 11.8243C10.7334 11.9368 10.5808 12 10.4217 12ZM3.82168 2.4H2.62168V3.6C2.62168 4.39565 2.93775 5.15871 3.50036 5.72132C4.06297 6.28393 4.82603 6.6 5.62168 6.6C6.41733 6.6 7.18039 6.28393 7.743 5.72132C8.30561 5.15871 8.62168 4.39565 8.62168 3.6V2.4H7.42168V3.6C7.42168 4.07739 7.23204 4.53523 6.89447 4.87279C6.55691 5.21036 6.09907 5.4 5.62168 5.4C5.14429 5.4 4.68645 5.21036 4.34889 4.87279C4.01132 4.53523 3.82168 4.07739 3.82168 3.6V2.4Z"
+                          fill="CurrentColor" />
+                      </svg>
+                      <p class="product-button-text">ADD TO BAG</p>
+                    </button>
+                  </div>
+                </article>
+              </li>
+              <li class="products-items  swiper-slide">
+                <article class="product-card product-card-colum1">
+                  <ul class="product-card-ikon">
+                    <li class="card-ikon">
+                      <button class="button ikon-button ">
+                        <svg class="svg-ikon" xmlns="http://www.w3.org/2000/svg" width="30" height="30"
+                          viewBox="0 0 30 30" fill="none">
+                          <path fill-rule="evenodd" clip-rule="evenodd"
+                            d="M8.51094 14.6882C7.6763 12.0824 8.65173 9.10402 11.3874 8.22272C12.8264 7.75834 14.4148 8.03214 15.6112 8.93212C16.7429 8.05703 18.3896 7.76145 19.8271 8.22272C22.5628 9.10402 23.5444 12.0824 22.7106 14.6882C21.4116 18.8186 15.6112 22 15.6112 22C15.6112 22 9.8535 18.8668 8.51094 14.6882Z"
+                            stroke="CurrentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+                        </svg>
+                      </button>
+                    </li>
+                    <li class="card-ikon">
+                      <button class="button ikon-button ">
+                        <svg class="svg-ikon" width="30px" height="30px" viewBox="0 0 21 21"
+                          xmlns="http://www.w3.org/2000/svg">
+                          <g fill="none" fill-rule="evenodd" stroke="CurrentColor" stroke-linecap="round"
+                            stroke-linejoin="round" transform="translate(4 4)">
+                            <path
+                              d="m5.5 7.5c.96940983 1.36718798 3.01111566 1.12727011 4.01111565 0l1.98888435-2c1.1243486-1.22807966 1.1641276-2.81388365 0-4-1.135619-1.15706921-2.86438099-1.15706947-4 0l-2 2" />
+                            <path
+                              d="m7.5 6.56977319c-.96940983-1.36718798-3-1.1970433-4-.06977319l-2 1.97487373c-1.12434863 1.22807966-1.16412758 2.83900987 0 4.02512627 1.13561901 1.1570692 2.86438099 1.1570695 4 0l2-2" />
+                          </g>
+                        </svg>
+                      </button>
+                    </li>
+                    <li class="card-ikon">
+                      <button class="button ikon-button ">
+                        <svg class="svg-ikon" width="30px" height="30px" viewBox="0 0 32 32" version="1.1"
+                          xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
+                          xmlns:sketch="http://www.bohemiancoding.com/sketch/ns">
+                          <g id="Page-1" stroke="CurrentColor" stroke-width="1" fill="none" fill-rule="evenodd"
+                            sketch:type="MSPage">
+                            <g id="Icon-Set" sketch:type="MSLayerGroup" transform="translate(-308.000000, -1139.000000)"
+                              fill="CurrentColor">
+                              <path
+                                d="M321.46,1163.45 C315.17,1163.45 310.07,1158.44 310.07,1152.25 C310.07,1146.06 315.17,1141.04 321.46,1141.04 C327.75,1141.04 332.85,1146.06 332.85,1152.25 C332.85,1158.44 327.75,1163.45 321.46,1163.45 L321.46,1163.45 Z M339.688,1169.25 L331.429,1161.12 C333.592,1158.77 334.92,1155.67 334.92,1152.25 C334.92,1144.93 328.894,1139 321.46,1139 C314.026,1139 308,1144.93 308,1152.25 C308,1159.56 314.026,1165.49 321.46,1165.49 C324.672,1165.49 327.618,1164.38 329.932,1162.53 L338.225,1170.69 C338.629,1171.09 339.284,1171.09 339.688,1170.69 C340.093,1170.3 340.093,1169.65 339.688,1169.25 L339.688,1169.25 Z M326.519,1151.41 L322.522,1151.41 L322.522,1147.41 C322.522,1146.85 322.075,1146.41 321.523,1146.41 C320.972,1146.41 320.524,1146.85 320.524,1147.41 L320.524,1151.41 L316.529,1151.41 C315.978,1151.41 315.53,1151.59 315.53,1152.14 C315.53,1152.7 315.978,1153.41 316.529,1153.41 L320.524,1153.41 L320.524,1157.41 C320.524,1157.97 320.972,1158.41 321.523,1158.41 C322.075,1158.41 322.522,1157.97 322.522,1157.41 L322.522,1153.41 L326.519,1153.41 C327.07,1153.41 327.518,1152.96 327.518,1152.41 C327.518,1151.86 327.07,1151.41 326.519,1151.41 L326.519,1151.41 Z"
+                                id="zoom-in" sketch:type="MSShapeGroup">
+                              </path>
+                            </g>
+                          </g>
+                        </svg>
+                      </button>
+                    </li>
+                  </ul>
+                  <div class="product-card-info">
+                    <img class="card-img" src="/img/cutton.png" alt=" hoody">
+                  </div>
+                  <div class="product-card-text">
+                    <h3 class="products-card-header">Women Cotton Shirts</h3>
+                    <p class="products-card-price">$150.00</p>
+                  </div>
+                  <div class="product-card-button">
+                    <button class="product-button">
+                      <svg xmlns="http://www.w3.org/2000/svg" width="12" height="12" viewBox="0 0 12 12" fill="none">
+                        <path
+                          d="M10.4217 12H0.82168C0.66255 12 0.509937 11.9368 0.397416 11.8243C0.284894 11.7117 0.22168 11.5591 0.22168 11.4V0.6C0.22168 0.44087 0.284894 0.288258 0.397416 0.175736C0.509937 0.0632141 0.66255 0 0.82168 0H10.4217C10.5808 0 10.7334 0.0632141 10.8459 0.175736C10.9585 0.288258 11.0217 0.44087 11.0217 0.6V11.4C11.0217 11.5591 10.9585 11.7117 10.8459 11.8243C10.7334 11.9368 10.5808 12 10.4217 12ZM3.82168 2.4H2.62168V3.6C2.62168 4.39565 2.93775 5.15871 3.50036 5.72132C4.06297 6.28393 4.82603 6.6 5.62168 6.6C6.41733 6.6 7.18039 6.28393 7.743 5.72132C8.30561 5.15871 8.62168 4.39565 8.62168 3.6V2.4H7.42168V3.6C7.42168 4.07739 7.23204 4.53523 6.89447 4.87279C6.55691 5.21036 6.09907 5.4 5.62168 5.4C5.14429 5.4 4.68645 5.21036 4.34889 4.87279C4.01132 4.53523 3.82168 4.07739 3.82168 3.6V2.4Z"
+                          fill="CurrentColor" />
+                      </svg>
+                      <p class="product-button-text">ADD TO BAG</p>
+                    </button>
+                  </div>
+                </article>
+              </li>
+            </ul>
+          </div>
+          <div id="product_slider-prev" class="swiper-button-prev" data-slider-prev>
+            <svg class="swiper-svg" xmlns="http://www.w3.org/2000/svg" width="41" height="40" viewBox="0 0 41 40"
+              fill="none">
+              <path
+                d="M19.0496 20.364L23.9996 15.414L22.5856 14L16.2216 20.364L22.5856 26.728L23.9996 25.314L19.0496 20.364Z"
+                fill="CurrentColor" />
+            </svg>
+          </div>
+          <div id="product_slider-next" class="swiper-button-next" data-slider-next>
+            <svg class="swiper-svg" xmlns="http://www.w3.org/2000/svg" width="41" height="40" viewBox="0 0 41 40"
+              fill="none">
+              <path
+                d="M21.1717 20.364L16.2217 15.414L17.6357 14L23.9997 20.364L17.6357 26.728L16.2217 25.314L21.1717 20.364Z"
+                fill="CurrentColor" />
+            </svg>
+
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="timerSale">
+      <div class="conteiner">
+        <div class="timerSale-card">
+          <div class="timer-card">
+            <div class="timerSale-header">
+              <h2 class="timer-head">GIFT VOUCHER</h2>
+            </div>
+            <ul class="timerSale-card-item">
+              <li class="card-items">
+                <div class="timer-item timer-days">00</div>
+                <span class="timer-text">day</span>
+              </li>
+              <li class="card-items">
+                <div class="timer-item timer-hours">00</div>
+                <span class="timer-text">hrs</span>
+              </li>
+              <li class="card-items">
+                <div class="timer-item timer-minutes">00</div>
+                <span class="timer-text">mins</span>
+              </li>
+              <li class="card-items">
+                <div class="timer-item timer-seconds">00</div>
+                <span class="timer-text">secs</span>
+              </li>
+            </ul>
+            <div class="timer-link">
+              <a class="link" href="#">Copy Code</a>
+            </div>
+          </div>
+          <div class="timer-card  timer-card-products">
+            <div id="timer-swiper" class="swiper timer-swiper" data-slider="1">
+              <ul class="timer-card-products-items swiper-wrapper">
+                <li class=" swiper-slide">
+                  <div class="voucher-info">
+                    <div class="products-item-img">
+                      <img src="/img/imageItem.png" alt="img">
+                    </div>
+
+                    <h3 class="voucher-head">Ladies Hair Bands</h3>
+                    <span class="voucher-price">$150.00</span>
+
+
+                    <div class="voucher-star">
+                      <svg xmlns="http://www.w3.org/2000/svg" width="83" height="12" viewBox="0 0 83 12" fill="none">
+                        <path fill-rule="evenodd" clip-rule="evenodd"
+                          d="M7.16536 1.39824L8.24031 3.54574C8.34566 3.75656 8.54901 3.90275 8.78483 3.93658L11.1895 4.28271C11.7837 4.36849 12.0201 5.08856 11.5901 5.50114L9.8512 7.17202C9.68031 7.33633 9.60252 7.57253 9.64295 7.80449L10.0533 10.1634C10.1544 10.747 9.53331 11.1922 9.00226 10.9161L6.85298 9.80158C6.64228 9.69224 6.38993 9.69224 6.17861 9.80158L4.02933 10.9161C3.49829 11.1922 2.87721 10.747 2.97888 10.1634L3.38865 7.80449C3.42907 7.57253 3.35128 7.33633 3.1804 7.17202L1.44149 5.50114C1.01151 5.08856 1.24794 4.36849 1.84207 4.28271L4.24677 3.93658C4.48258 3.90275 4.68655 3.75656 4.7919 3.54574L5.86623 1.39824C6.13206 0.867254 6.89953 0.867254 7.16536 1.39824Z"
+                          stroke="CurrentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
+                        <path fill-rule="evenodd" clip-rule="evenodd"
+                          d="M24.7537 1.39824L25.8287 3.54574C25.934 3.75656 26.1374 3.90275 26.3732 3.93658L28.7779 4.28271C29.372 4.36849 29.6085 5.08856 29.1785 5.50114L27.4396 7.17202C27.2687 7.33633 27.1909 7.57253 27.2313 7.80449L27.6417 10.1634C27.7428 10.747 27.1217 11.1922 26.5906 10.9161L24.4414 9.80158C24.2307 9.69224 23.9783 9.69224 23.767 9.80158L21.6177 10.9161C21.0867 11.1922 20.4656 10.747 20.5673 10.1634L20.977 7.80449C21.0175 7.57253 20.9397 7.33633 20.7688 7.17202L19.0299 5.50114C18.5999 5.08856 18.8363 4.36849 19.4304 4.28271L21.8351 3.93658C22.071 3.90275 22.2749 3.75656 22.3803 3.54574L23.4546 1.39824C23.7204 0.867254 24.4879 0.867254 24.7537 1.39824Z"
+                          stroke="CurrentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
+                        <path fill-rule="evenodd" clip-rule="evenodd"
+                          d="M42.3421 1.39824L43.4171 3.54574C43.5224 3.75656 43.7258 3.90275 43.9616 3.93658L46.3663 4.28271C46.9604 4.36849 47.1968 5.08856 46.7669 5.50114L45.028 7.17202C44.8571 7.33633 44.7793 7.57253 44.8197 7.80449L45.2301 10.1634C45.3311 10.747 44.7101 11.1922 44.179 10.9161L42.0297 9.80158C41.819 9.69224 41.5667 9.69224 41.3554 9.80158L39.2061 10.9161C38.675 11.1922 38.054 10.747 38.1556 10.1634L38.5654 7.80449C38.6058 7.57253 38.528 7.33633 38.3572 7.17202L36.6182 5.50114C36.1883 5.08856 36.4247 4.36849 37.0188 4.28271L39.4235 3.93658C39.6593 3.90275 39.8633 3.75656 39.9687 3.54574L41.043 1.39824C41.3088 0.867254 42.0763 0.867254 42.3421 1.39824Z"
+                          stroke="CurrentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
+                        <path fill-rule="evenodd" clip-rule="evenodd"
+                          d="M59.9305 1.39824L61.0054 3.54574C61.1108 3.75656 61.3141 3.90275 61.55 3.93658L63.9547 4.28271C64.5488 4.36849 64.7852 5.08856 64.3552 5.50114L62.6163 7.17202C62.4454 7.33633 62.3677 7.57253 62.4081 7.80449L62.8185 10.1634C62.9195 10.747 62.2984 11.1922 61.7674 10.9161L59.6181 9.80158C59.4074 9.69224 59.1551 9.69224 58.9437 9.80158L56.7945 10.9161C56.2634 11.1922 55.6423 10.747 55.744 10.1634L56.1538 7.80449C56.1942 7.57253 56.1164 7.33633 55.9455 7.17202L54.2066 5.50114C53.7766 5.08856 54.0131 4.36849 54.6072 4.28271L57.0119 3.93658C57.2477 3.90275 57.4517 3.75656 57.557 3.54574L58.6314 1.39824C58.8972 0.867254 59.6647 0.867254 59.9305 1.39824Z"
+                          stroke="CurrentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
+                        <path fill-rule="evenodd" clip-rule="evenodd"
+                          d="M77.5189 1.39824L78.5938 3.54574C78.6992 3.75656 78.9025 3.90275 79.1383 3.93658L81.543 4.28271C82.1372 4.36849 82.3736 5.08856 81.9436 5.50114L80.2047 7.17202C80.0338 7.33633 79.956 7.57253 79.9965 7.80449L80.4068 10.1634C80.5079 10.747 79.8868 11.1922 79.3558 10.9161L77.2065 9.80158C76.9958 9.69224 76.7434 9.69224 76.5321 9.80158L74.3828 10.9161C73.8518 11.1922 73.2307 10.747 73.3324 10.1634L73.7422 7.80449C73.7826 7.57253 73.7048 7.33633 73.5339 7.17202L71.795 5.50114C71.365 5.08856 71.6015 4.36849 72.1956 4.28271L74.6003 3.93658C74.8361 3.90275 75.0401 3.75656 75.1454 3.54574L76.2197 1.39824C76.4856 0.867254 77.253 0.867254 77.5189 1.39824Z"
+                          stroke="CurrentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
+                      </svg>
+                    </div>
+                  </div>
+                </li>
+                <li class=" swiper-slide">
+                  <div class="voucher-info">
+                    <div class="products-item-img">
+                      <img src="/img/imageItem.png" alt="img">
+                    </div>
+
+                    <h3 class="voucher-head">Ladies Hair Bands</h3>
+                    <span class="voucher-price">$150.00</span>
+
+
+                    <div class="voucher-star">
+                      <svg xmlns="http://www.w3.org/2000/svg" width="83" height="12" viewBox="0 0 83 12" fill="none">
+                        <path fill-rule="evenodd" clip-rule="evenodd"
+                          d="M7.16536 1.39824L8.24031 3.54574C8.34566 3.75656 8.54901 3.90275 8.78483 3.93658L11.1895 4.28271C11.7837 4.36849 12.0201 5.08856 11.5901 5.50114L9.8512 7.17202C9.68031 7.33633 9.60252 7.57253 9.64295 7.80449L10.0533 10.1634C10.1544 10.747 9.53331 11.1922 9.00226 10.9161L6.85298 9.80158C6.64228 9.69224 6.38993 9.69224 6.17861 9.80158L4.02933 10.9161C3.49829 11.1922 2.87721 10.747 2.97888 10.1634L3.38865 7.80449C3.42907 7.57253 3.35128 7.33633 3.1804 7.17202L1.44149 5.50114C1.01151 5.08856 1.24794 4.36849 1.84207 4.28271L4.24677 3.93658C4.48258 3.90275 4.68655 3.75656 4.7919 3.54574L5.86623 1.39824C6.13206 0.867254 6.89953 0.867254 7.16536 1.39824Z"
+                          stroke="CurrentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
+                        <path fill-rule="evenodd" clip-rule="evenodd"
+                          d="M24.7537 1.39824L25.8287 3.54574C25.934 3.75656 26.1374 3.90275 26.3732 3.93658L28.7779 4.28271C29.372 4.36849 29.6085 5.08856 29.1785 5.50114L27.4396 7.17202C27.2687 7.33633 27.1909 7.57253 27.2313 7.80449L27.6417 10.1634C27.7428 10.747 27.1217 11.1922 26.5906 10.9161L24.4414 9.80158C24.2307 9.69224 23.9783 9.69224 23.767 9.80158L21.6177 10.9161C21.0867 11.1922 20.4656 10.747 20.5673 10.1634L20.977 7.80449C21.0175 7.57253 20.9397 7.33633 20.7688 7.17202L19.0299 5.50114C18.5999 5.08856 18.8363 4.36849 19.4304 4.28271L21.8351 3.93658C22.071 3.90275 22.2749 3.75656 22.3803 3.54574L23.4546 1.39824C23.7204 0.867254 24.4879 0.867254 24.7537 1.39824Z"
+                          stroke="CurrentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
+                        <path fill-rule="evenodd" clip-rule="evenodd"
+                          d="M42.3421 1.39824L43.4171 3.54574C43.5224 3.75656 43.7258 3.90275 43.9616 3.93658L46.3663 4.28271C46.9604 4.36849 47.1968 5.08856 46.7669 5.50114L45.028 7.17202C44.8571 7.33633 44.7793 7.57253 44.8197 7.80449L45.2301 10.1634C45.3311 10.747 44.7101 11.1922 44.179 10.9161L42.0297 9.80158C41.819 9.69224 41.5667 9.69224 41.3554 9.80158L39.2061 10.9161C38.675 11.1922 38.054 10.747 38.1556 10.1634L38.5654 7.80449C38.6058 7.57253 38.528 7.33633 38.3572 7.17202L36.6182 5.50114C36.1883 5.08856 36.4247 4.36849 37.0188 4.28271L39.4235 3.93658C39.6593 3.90275 39.8633 3.75656 39.9687 3.54574L41.043 1.39824C41.3088 0.867254 42.0763 0.867254 42.3421 1.39824Z"
+                          stroke="CurrentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
+                        <path fill-rule="evenodd" clip-rule="evenodd"
+                          d="M59.9305 1.39824L61.0054 3.54574C61.1108 3.75656 61.3141 3.90275 61.55 3.93658L63.9547 4.28271C64.5488 4.36849 64.7852 5.08856 64.3552 5.50114L62.6163 7.17202C62.4454 7.33633 62.3677 7.57253 62.4081 7.80449L62.8185 10.1634C62.9195 10.747 62.2984 11.1922 61.7674 10.9161L59.6181 9.80158C59.4074 9.69224 59.1551 9.69224 58.9437 9.80158L56.7945 10.9161C56.2634 11.1922 55.6423 10.747 55.744 10.1634L56.1538 7.80449C56.1942 7.57253 56.1164 7.33633 55.9455 7.17202L54.2066 5.50114C53.7766 5.08856 54.0131 4.36849 54.6072 4.28271L57.0119 3.93658C57.2477 3.90275 57.4517 3.75656 57.557 3.54574L58.6314 1.39824C58.8972 0.867254 59.6647 0.867254 59.9305 1.39824Z"
+                          stroke="CurrentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
+                        <path fill-rule="evenodd" clip-rule="evenodd"
+                          d="M77.5189 1.39824L78.5938 3.54574C78.6992 3.75656 78.9025 3.90275 79.1383 3.93658L81.543 4.28271C82.1372 4.36849 82.3736 5.08856 81.9436 5.50114L80.2047 7.17202C80.0338 7.33633 79.956 7.57253 79.9965 7.80449L80.4068 10.1634C80.5079 10.747 79.8868 11.1922 79.3558 10.9161L77.2065 9.80158C76.9958 9.69224 76.7434 9.69224 76.5321 9.80158L74.3828 10.9161C73.8518 11.1922 73.2307 10.747 73.3324 10.1634L73.7422 7.80449C73.7826 7.57253 73.7048 7.33633 73.5339 7.17202L71.795 5.50114C71.365 5.08856 71.6015 4.36849 72.1956 4.28271L74.6003 3.93658C74.8361 3.90275 75.0401 3.75656 75.1454 3.54574L76.2197 1.39824C76.4856 0.867254 77.253 0.867254 77.5189 1.39824Z"
+                          stroke="CurrentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
+                      </svg>
+                    </div>
+                  </div>
+                </li>
+              </ul>
+            </div>
+            <div id="timer-swiper-prev" class="swiper-button-prev" data-slider-prev>
+              <svg class="swiper-svg" xmlns="http://www.w3.org/2000/svg" width="41" height="40" viewBox="0 0 41 40"
+                fill="none">
+                <path
+                  d="M19.0496 20.364L23.9996 15.414L22.5856 14L16.2216 20.364L22.5856 26.728L23.9996 25.314L19.0496 20.364Z"
+                  fill="CurrentColor" />
+              </svg>
+            </div>
+            <div id="timer-swiper-next" class="swiper-button-next" data-slider-next>
+              <svg class="swiper-svg" xmlns="http://www.w3.org/2000/svg" width="41" height="40" viewBox="0 0 41 40"
+                fill="none">
+                <path
+                  d="M21.1717 20.364L16.2217 15.414L17.6357 14L23.9997 20.364L17.6357 26.728L16.2217 25.314L21.1717 20.364Z"
+                  fill="CurrentColor" />
+              </svg>
+            </div>
+          </div>
+        </div>
+      </div>
+      </div>
+    </section>
+    <section class="branding">
+      <div class="conteiner swiper-container">
+        <div class="branding-info">
+          <div class="branding-main-info">
+            <h2 class="branding-header">Out Trusted Branding Partners</h2>
+            <p class="branding-text">There are many variations of passages of Lorem Ipsum available, but the majority
+              have
+              suffered alteration in
+              some form, by injected humour.</p>
+          </div>
+          <div class="swiper-branding">
+            <div id="branding-swiper" class="swiper branding-swiper" data-slider="6">
+              <ul class="branding-list swiper-wrapper">
+                <li class="branding-items  swiper-slide">
+                  <img src="/img/brabd1.png" alt="">
+                </li>
+                <li class="branding-items  swiper-slide">
+                  <img src="/img/brabd2.png" alt="">
+                </li>
+                <li class="branding-items  swiper-slide">
+                  <img src="/img/brabd3.png" alt="">
+                </li>
+                <li class="branding-items  swiper-slide">
+                  <img src="/img/brabd4.png" alt="">
+                </li>
+                <li class="branding-items  swiper-slide">
+                  <img src="/img/brabd5.png" alt="">
+                </li>
+                <li class="branding-items  swiper-slide">
+                  <img src="/img/brabd6.png" alt="">
+                </li>
+                <li class="branding-items  swiper-slide">
+                  <img src="/img/brabd1.png" alt="">
+                </li>
+                <li class="branding-items  swiper-slide">
+                  <img src="/img/brabd2.png" alt="">
+                </li>
+                <li class="branding-items  swiper-slide">
+                  <img src="/img/brabd3.png" alt="">
+                </li>
+                <li class="branding-items  swiper-slide">
+                  <img src="/img/brabd4.png" alt="">
+                </li>
+                <li class="branding-items  swiper-slide">
+                  <img src="/img/brabd5.png" alt="">
+                </li>
+                <li class="branding-items  swiper-slide">
+                  <img src="/img/brabd6.png" alt="">
+                </li>
+              </ul>
+              <div class="swiper-pagination pagination-branding">
+
+              </div>
+            </div>
+
+            <div id="branding-swiper-prev" class="branding-button-prev" data-slider-prev>
+              <svg class="swiper-svg" xmlns="http://www.w3.org/2000/svg" width="41" height="40" viewBox="0 0 41 40"
+                fill="none">
+                <path
+                  d="M19.0496 20.364L23.9996 15.414L22.5856 14L16.2216 20.364L22.5856 26.728L23.9996 25.314L19.0496 20.364Z"
+                  fill="CurrentColor" />
+              </svg>
+            </div>
+            <div id="branding-swiper-next" class="branding-button-next" data-slider-next>
+              <svg class="swiper-svg" xmlns="http://www.w3.org/2000/svg" width="41" height="40" viewBox="0 0 41 40"
+                fill="none">
+                <path
+                  d="M21.1717 20.364L16.2217 15.414L17.6357 14L23.9997 20.364L17.6357 26.728L16.2217 25.314L21.1717 20.364Z"
+                  fill="CurrentColor" />
+              </svg>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="customer">
+      <div class="conteiner">
+        <div class="customer-info">
+          <h2 class="customer-header">What Say Our Regular Customer</h2>
+          <p class="customer-header-info">There are many variations of passages of Lorem Ipsum available, but the
+            majority have suffered alteration in some form, by injected humour</p>
+          <div class="customer-swipers">
+            <div id="customer-slider" class="swiper customer-slider" data-slider="1">
+              <ul class="customer-list swiper-wrapper">
+                <li class="swiper-slide">
+                  <div class="customer-item">
+                    <div class="customer-main-text">
+                      <p class="customer-main-info">
+                        There are many variations of passages of Lorem Ipsum available, but the
+                        majority
+                        have suffered alteration in some form, by injected humour, or randomised words which don't look
+                        even
+                        slightly believable.
+                      </p>
+                    </div>
+                    <div class="customer-info">
+                      <img src="/img/Ellipse 15.png" alt="">
+                      <span class="customer-name">Wade Warren</span>
+                      <span class="customer-job-title">UI designer</span>
+                    </div>
+                  </div>
+                </li>
+                <li class=" swiper-slide">
+                  <div class="customer-item">
+                    <div class="customer-main-text">
+                      <p class="customer-main-info">
+                        There are many variations of passages of Lorem Ipsum available, but the
+                        majority
+                        have suffered alteration in some form, by injected humour, or randomised words which don't look
+                        even
+                        slightly believable.
+                      </p>
+                    </div>
+                    <div class="customer-info">
+                      <img src="/img/Ellipse 15.png" alt="">
+                      <span class="customer-name">Wade Warren</span>
+                      <span class="customer-job-title">UI designer</span>
+                    </div>
+                  </div>
+                </li>
+              </ul>
+              <div class="swiper-pagination pagination-customer">
+
+              </div>
+
+            </div>
+            <div id="customer-slider-prev" class="customer-button-prev" data-slider-prev>
+              <svg class="swiper-svg" xmlns="http://www.w3.org/2000/svg" width="41" height="40" viewBox="0 0 41 40"
+                fill="none">
+                <path
+                  d="M19.0496 20.364L23.9996 15.414L22.5856 14L16.2216 20.364L22.5856 26.728L23.9996 25.314L19.0496 20.364Z"
+                  fill="CurrentColor" />
+              </svg>
+            </div>
+            <div id="customer-slider-next" class="customer-button-next" data-slider-next>
+              <svg class="swiper-svg" xmlns="http://www.w3.org/2000/svg" width="41" height="40" viewBox="0 0 41 40"
+                fill="none">
+                <path
+                  d="M21.1717 20.364L16.2217 15.414L17.6357 14L23.9997 20.364L17.6357 26.728L16.2217 25.314L21.1717 20.364Z"
+                  fill="CurrentColor" />
+              </svg>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="latest-news">
+      <div class="conteiner">
+        <div class="latest-news-info">
+          <h2 class="latest-news-header">Latest News</h2>
+          <p class="latest-news-text">There are many variations of passages of Lorem Ipsum available, but the majority
+            have suffered alteration in
+            some form, by injected humour</p>
+        </div>
+        <div class="latest-news-card latest-card-img1">
+          <div class="latest-card">
+            <span class="sale-card">Sale</span>
+            <img class="latest-card-img" src="/img/pexels2.png" alt="">
+            <div class="latest-card-info">
+              <span class="latest-date">DESIGN JULY 11, 2021</span>
+              <h3 class="latest-header">2021’S Biggest Sneaker Is Getting Us So Pumped For Summer</h3>
+              <p class="latest-text">There are many variations of passages of Lorem Ipsum available, but the majority
+                have suffered
+                alteration in some form, by injected humour, or randomised words which don't look even slightly
+                believable.</p>
+              <button class="latest-card-button">
+                <p class="latest-button-text">Read More</p>
+              </button>
+            </div>
+          </div>
+          <div class="latest-card latest-card-img2">
+            <span class="fashion-card">Fashion</span>
+            <img class="latest-card-img" src="/img/pexels.png" alt="">
+            <div class="latest-card-info">
+              <span class="latest-date">DESIGN JULY 11, 2021</span>
+              <h3 class="latest-header">2021’S Biggest Sneaker Is Getting Us So Pumped For Summer</h3>
+              <p class="latest-text">There are many variations of passages of Lorem Ipsum available, but the majority
+                have suffered
+                alteration in some form, by injected humour, or randomised words which don't look even slightly
+                believable.</p>
+              <button class="latest-card-button">
+                <p>Read More</p>
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="shop-policy">
+      <div class="conteiner">
+        <div class="shop-policy-card">
+          <div class="shop-policy-item">
+            <div class="shop-policy-ikon">
+              <svg class="policy-ikon" xmlns="http://www.w3.org/2000/svg" width="46" height="45" viewBox="0 0 46 45"
+                fill="none">
+                <path
+                  d="M27.2158 17.8114H30.0272L32.8386 21.6124V27.1827H30.9315C30.8201 27.9646 30.4304 28.68 29.8339 29.1975C29.2373 29.7151 28.4741 30 27.6844 30C26.8946 30 26.1314 29.7151 25.5349 29.1975C24.9384 28.68 24.5486 27.9646 24.4372 27.1827H19.6859C19.5745 27.9646 19.1848 28.68 18.5883 29.1975C17.9917 29.7151 17.2285 30 16.4388 30C15.649 30 14.8858 29.7151 14.2893 29.1975C13.6928 28.68 13.303 27.9646 13.1916 27.1827H12.2217V15.9371C12.2217 15.6886 12.3204 15.4502 12.4962 15.2745C12.6719 15.0987 12.9103 15 13.1588 15H26.2787C26.5272 15 26.7656 15.0987 26.9413 15.2745C27.1171 15.4502 27.2158 15.6886 27.2158 15.9371V17.8114ZM27.2158 19.6857V22.4971H30.9643V22.23L29.0826 19.6857H27.2158Z"
+                  fill="CurrentColor" />
+              </svg>
+            </div>
+            <h2 class="shop-policy-head">Free Shipping</h2>
+            <span class="shop-policy-text">Orders over $200</span>
+          </div>
+          <div class="shop-policy-item">
+            <div class="shop-policy-ikon">
+              <svg class="policy-ikon" xmlns="http://www.w3.org/2000/svg" width="46" height="45" viewBox="0 0 46 45"
+                fill="none">
+                <path
+                  d="M32.2217 20.8333V29.1667C32.2217 29.3877 32.1269 29.5996 31.9581 29.7559C31.7893 29.9122 31.5604 30 31.3217 30H15.1217C14.883 30 14.6541 29.9122 14.4853 29.7559C14.3165 29.5996 14.2217 29.3877 14.2217 29.1667V20.8333H32.2217ZM32.2217 19.1667H14.2217V15.8333C14.2217 15.6123 14.3165 15.4004 14.4853 15.2441C14.6541 15.0878 14.883 15 15.1217 15H31.3217C31.5604 15 31.7893 15.0878 31.9581 15.2441C32.1269 15.4004 32.2217 15.6123 32.2217 15.8333V19.1667ZM25.9217 25.8333V27.5H29.5217V25.8333H25.9217Z"
+                  fill="CurrentColor" />
+              </svg>
+            </div>
+            <h2 class="shop-policy-head">Secure Payment</h2>
+            <span class="shop-policy-text">100% secure payment</span>
+          </div>
+          <div class="shop-policy-item">
+            <div class="shop-policy-ikon">
+              <svg class="policy-ikon" xmlns="http://www.w3.org/2000/svg" width="46" height="45" viewBox="0 0 46 45"
+                fill="none">
+                <path
+                  d="M25.2743 15C25.8287 14.9999 26.3734 15.1458 26.8536 15.4231C27.3337 15.7003 27.7325 16.099 28.0096 16.5792C28.2868 17.0594 28.4327 17.6041 28.4326 18.1585C28.4325 18.7129 28.2864 19.2576 28.009 19.7376L31.5901 19.7368V21.3158H30.0111V29.2105C30.0111 29.4199 29.928 29.6207 29.7799 29.7688C29.6319 29.9168 29.4311 30 29.2217 30H16.5901C16.3807 30 16.1799 29.9168 16.0319 29.7688C15.8838 29.6207 15.8006 29.4199 15.8006 29.2105V21.3158H14.2217V19.7368L17.8027 19.7376C17.411 19.0594 17.2854 18.2598 17.4501 17.4941C17.6149 16.7284 18.0583 16.0512 18.6943 15.5941C19.3303 15.137 20.1135 14.9325 20.8917 15.0204C21.67 15.1083 22.3879 15.4823 22.9059 16.0697C23.2016 15.7329 23.5659 15.4632 23.9744 15.2788C24.3829 15.0943 24.8261 14.9992 25.2743 15ZM23.6954 21.3158H22.1164V29.2105H23.6954V21.3158ZM20.5375 16.579C20.1277 16.5771 19.7334 16.7346 19.4376 17.0182C19.1419 17.3018 18.9679 17.6892 18.9526 18.0986C18.9372 18.5081 19.0816 18.9075 19.3552 19.2124C19.6289 19.5174 20.0103 19.704 20.419 19.7329L20.5375 19.7368H22.1164V18.1579C22.1164 17.7806 21.9813 17.4157 21.7356 17.1294C21.4898 16.8431 21.1496 16.6543 20.7767 16.5971L20.6551 16.5829L20.5375 16.579ZM25.2743 16.579C24.876 16.5788 24.4923 16.7293 24.2002 17.0001C23.9081 17.271 23.7292 17.6422 23.6993 18.0395L23.6954 18.1579V19.7368H25.2743C25.6727 19.737 26.0563 19.5865 26.3484 19.3157C26.6405 19.0448 26.8194 18.6735 26.8493 18.2763L26.8533 18.1579C26.8533 17.7391 26.6869 17.3375 26.3908 17.0414C26.0947 16.7453 25.6931 16.579 25.2743 16.579Z"
+                  fill="CurrentColor" />
+              </svg>
+            </div>
+            <h2 class="shop-policy-head">Gift Certificae</h2>
+            <span class="shop-policy-text">Buy now $500 to $1000</span>
+
+          </div>
+          <div class="shop-policy-item">
+            <div class="shop-policy-ikon">
+              <svg class="policy-ikon" xmlns="http://www.w3.org/2000/svg" width="46" height="45" viewBox="0 0 46 45"
+                fill="none">
+                <path
+                  d="M15.2217 30C15.2217 28.4845 15.8237 27.031 16.8954 25.9594C17.967 24.8878 19.4204 24.2857 20.936 24.2857C22.4515 24.2857 23.9049 24.8878 24.9766 25.9594C26.0482 27.031 26.6503 28.4845 26.6503 30H15.2217ZM20.936 23.5714C18.5681 23.5714 16.6503 21.6536 16.6503 19.2857C16.6503 16.9179 18.5681 15 20.936 15C23.3038 15 25.2217 16.9179 25.2217 19.2857C25.2217 21.6536 23.3038 23.5714 20.936 23.5714ZM28.0788 26.4286H30.936V27.8571H28.0788V26.4286ZM25.936 22.8571H30.936V24.2857H25.936V22.8571ZM27.3645 19.2857H30.936V20.7143H27.3645V19.2857Z"
+                  fill="CurrentColor" />
+              </svg>
+            </div>
+            <h2 class="shop-policy-head">24/7 Support</h2>
+            <span class="shop-policy-text">Ready support</span>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="instagram-follow">
+      <div class="conteiner">
+        <div class="instagram-info">
+          <img src="/img/InstaIcon.png" alt="instagram">
+          <h2>Follow us in instagram @graphic_raz</h2>
+        </div>
+        <ul class="instagram-photo">
+          <li class="instagram-img">
+            <div class="img-inst">
+              <span class="plus-ikon"><img class="plus-img" src="/img/Plus.png" alt=""></span>
+              <img class="instagram-item" src="/img/Photo.png" alt="">
+            </div>
+          </li>
+          <li class="instagram-img">
+            <div class="img-inst">
+              <span class="plus-ikon"><img class="plus-img" src="/img/Plus.png" alt=""></span>
+              <img class="instagram-item" src="/img/pexels-riciardus-307008 1.png" alt="">
+            </div>
+          </li>
+          <li class="instagram-img">
+            <div class="img-inst">
+              <span class="plus-ikon"><img class="plus-img" src="/img/Plus.png" alt=""></span>
+              <img class="instagram-item" src="/img/bruce-christianson-ixedg2mKs3w-unsplash 1.png" alt="">
+            </div>
+          </li>
+          <li class="instagram-img">
+            <div class="img-inst">
+              <span class="plus-ikon"><img class="plus-img" src="/img/Plus.png" alt=""></span>
+              <img class="instagram-item" src="/img/hipster-mum-Ri17WyRuclo-unsplash 1.png" alt="">
+            </div>
+          </li>
+        </ul>
+      </div>
+    </section>
+  </main>
+  <footer class="footer">
+    <div class="main_footer">
+      <div class="conteiner">
+        <div class="footer-list">
+          <div class="footer-item-logo">
+            <div class="footer-logo">
+              <img src="/img/Logo.png" alt="Logo">
+            </div>
+            <div class="footer-logo-text">
+              <p class="logo-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+                incididunt ut labore.
+              </p>
+            </div>
+            <div class="footer-logo-ikon">
+              <svg class="svg-footer" xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="24" height="24"
+                viewBox="0 0 24 24" fill="CurrentColor">
+                <path
+                  d="M16.403,9H14V7c0-1.032,0.084-1.682,1.563-1.682h0.868c0.552,0,1-0.448,1-1V3.064c0-0.523-0.401-0.97-0.923-1.005 C15.904,2.018,15.299,1.999,14.693,2C11.98,2,10,3.657,10,6.699V9H8c-0.552,0-1,0.448-1,1v2c0,0.552,0.448,1,1,1l2-0.001V21 c0,0.552,0.448,1,1,1h2c0.552,0,1-0.448,1-1v-8.003l2.174-0.001c0.508,0,0.935-0.381,0.993-0.886l0.229-1.996 C17.465,9.521,17.001,9,16.403,9z">
+                </path>
+              </svg>
+              <svg class="svg-footer" xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="24" height="24"
+                viewBox="0 0 30 30" fill="CurrentColor">
+                <path
+                  d="M28,6.937c-0.957,0.425-1.985,0.711-3.064,0.84c1.102-0.66,1.947-1.705,2.345-2.951c-1.03,0.611-2.172,1.055-3.388,1.295 c-0.973-1.037-2.359-1.685-3.893-1.685c-2.946,0-5.334,2.389-5.334,5.334c0,0.418,0.048,0.826,0.138,1.215 c-4.433-0.222-8.363-2.346-10.995-5.574C3.351,6.199,3.088,7.115,3.088,8.094c0,1.85,0.941,3.483,2.372,4.439 c-0.874-0.028-1.697-0.268-2.416-0.667c0,0.023,0,0.044,0,0.067c0,2.585,1.838,4.741,4.279,5.23 c-0.447,0.122-0.919,0.187-1.406,0.187c-0.343,0-0.678-0.034-1.003-0.095c0.679,2.119,2.649,3.662,4.983,3.705 c-1.825,1.431-4.125,2.284-6.625,2.284c-0.43,0-0.855-0.025-1.273-0.075c2.361,1.513,5.164,2.396,8.177,2.396 c9.812,0,15.176-8.128,15.176-15.177c0-0.231-0.005-0.461-0.015-0.69C26.38,8.945,27.285,8.006,28,6.937z">
+                </path>
+              </svg>
+              <svg class="svg-footer" xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="24" height="24"
+                viewBox="0 0 24 24" fill="CurrentColor">
+                <path
+                  d="M 8 3 C 5.243 3 3 5.243 3 8 L 3 16 C 3 18.757 5.243 21 8 21 L 16 21 C 18.757 21 21 18.757 21 16 L 21 8 C 21 5.243 18.757 3 16 3 L 8 3 z M 8 5 L 16 5 C 17.654 5 19 6.346 19 8 L 19 16 C 19 17.654 17.654 19 16 19 L 8 19 C 6.346 19 5 17.654 5 16 L 5 8 C 5 6.346 6.346 5 8 5 z M 17 6 A 1 1 0 0 0 16 7 A 1 1 0 0 0 17 8 A 1 1 0 0 0 18 7 A 1 1 0 0 0 17 6 z M 12 7 C 9.243 7 7 9.243 7 12 C 7 14.757 9.243 17 12 17 C 14.757 17 17 14.757 17 12 C 17 9.243 14.757 7 12 7 z M 12 9 C 13.654 9 15 10.346 15 12 C 15 13.654 13.654 15 12 15 C 10.346 15 9 13.654 9 12 C 9 10.346 10.346 9 12 9 z">
+                </path>
+              </svg>
+              <svg class="svg-footer" xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="24" height="24"
+                viewBox="0 0 30 30" fill="CurrentColor">
+                <path
+                  d="M24,4H6C4.895,4,4,4.895,4,6v18c0,1.105,0.895,2,2,2h18c1.105,0,2-0.895,2-2V6C26,4.895,25.105,4,24,4z M10.954,22h-2.95 v-9.492h2.95V22z M9.449,11.151c-0.951,0-1.72-0.771-1.72-1.72c0-0.949,0.77-1.719,1.72-1.719c0.948,0,1.719,0.771,1.719,1.719 C11.168,10.38,10.397,11.151,9.449,11.151z M22.004,22h-2.948v-4.616c0-1.101-0.02-2.517-1.533-2.517 c-1.535,0-1.771,1.199-1.771,2.437V22h-2.948v-9.492h2.83v1.297h0.04c0.394-0.746,1.356-1.533,2.791-1.533 c2.987,0,3.539,1.966,3.539,4.522V22z">
+                </path>
+              </svg>
+            </div>
+            <div class="footer-position-shop">
+              <a class="shop-poition-link" href="#">
+                Check our shop in Google Map
+              </a>
+            </div>
+          </div>
+          <div class="usefuls-links">
+            <p class="links-head">Support Links</p>
+            <div class="links-list">
+              <a class="links-item" href="#">Product Guides </a>
+              <a class="links-item" href="#">Terms & Conditions</a>
+              <a class="links-item" href="#">Delivery Policy</a>
+              <a class="links-item" href="#">Privacy Policy</a>
+              <a class="links-item" href="#">Feedback</a>
+            </div>
+          </div>
+          <div class="usefuls-links">
+            <p class="links-head">Quick Links</p>
+            <div class="links-list">
+              <a class="links-item" href="#">Product Guides </a>
+              <a class="links-item" href="#">Terms & Conditions</a>
+              <a class="links-item" href="#">Delivery Policy</a>
+              <a class="links-item" href="#">Privacy Policy</a>
+              <a class="links-item" href="#">Feedback</a>
+            </div>
+          </div>
+          <div class="usefuls-links">
+            <p class="links-head">Menu</p>
+            <div class="links-list">
+              <a class="links-item" href="#">Product Guides </a>
+              <a class="links-item" href="#">Terms & Conditions</a>
+              <a class="links-item" href="#">Delivery Policy</a>
+              <a class="links-item" href="#">Privacy Policy</a>
+              <a class="links-item" href="#">Feedback</a>
+            </div>
+          </div>
+          <div class="input_signup">
+            <h3 class="input_head">
+              Newsletter Signup
+            </h3>
+            <p class="input_text">
+              There are many variations passages of Lorem Ipsum available
+            </p>
+            <form class="form_input" action="">
+              <input class="footer_input" type="text" placeholder="your email address">
+              <button class="form_button">
+                <svg class="form_svg" xmlns="http://www.w3.org/2000/svg" width="40" height="40" viewBox="0 0 41 40"
+                  fill="none">
+                  <path
+                    d="M28.5752 20.3536C28.7705 20.1583 28.7705 19.8417 28.5752 19.6464L25.3933 16.4645C25.198 16.2692 24.8814 16.2692 24.6861 16.4645C24.4909 16.6597 24.4909 16.9763 24.6861 17.1716L27.5146 20L24.6861 22.8284C24.4909 23.0237 24.4909 23.3403 24.6861 23.5355C24.8814 23.7308 25.198 23.7308 25.3933 23.5355L28.5752 20.3536ZM13.2217 20.5H28.2217V19.5H13.2217V20.5Z"
+                    fill="CurrentColor" />
+                </svg>
+              </button>
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="more_footer">
+      <div class="conteiner">
+        <div class="payment_system">
+          <div class="copyright">
+            <p class="copyright_text">
+              Copyright @2021 ebRaw. All Rights Reserved By Graphic Raz
+            </p>
+          </div>
+          <div class="payment_cards">
+            <svg xmlns="http://www.w3.org/2000/svg" width="170" height="15" viewBox="0 0 170 15" fill="none">
+              <path fill-rule="evenodd" clip-rule="evenodd"
+                d="M167.728 0H147.59C146.734 0 146.04 0.708368 146.04 1.58044V13.4196C146.04 14.2924 146.736 15 147.59 15H167.728C168.584 15 169.278 14.2916 169.278 13.4196V1.58044C169.278 0.707589 168.582 0 167.728 0Z"
+                fill="#227FBB" />
+              <path fill-rule="evenodd" clip-rule="evenodd"
+                d="M148.136 5.39015L147.689 4.27888L147.244 5.39015H148.136ZM157.992 4.94764C157.902 5.00322 157.796 5.00507 157.669 5.00507H156.875V4.38591H157.68C157.794 4.38591 157.913 4.39112 157.99 4.43619C158.075 4.4768 158.127 4.56323 158.127 4.68263C158.127 4.80446 158.077 4.90249 157.992 4.94764C158.077 4.90249 157.992 4.94764 157.992 4.94764ZM163.657 5.39015L163.205 4.27888L162.755 5.39015H163.657ZM153.098 6.593H152.428L152.425 4.40979L151.477 6.593H150.903L149.953 4.40785V6.593H148.624L148.372 5.97123H147.011L146.758 6.593H146.048L147.218 3.80542H148.189L149.301 6.44468V3.80542H150.368L151.223 5.69646L152.009 3.80542H153.098V6.593H153.098ZM155.768 6.593H153.585V3.80542H155.768V4.38591H154.238V4.88837H155.732V5.45977H154.238V6.01646H155.768V6.593ZM158.847 4.55617C158.847 5.00061 158.556 5.23023 158.386 5.29918C158.529 5.35467 158.652 5.45271 158.71 5.53393C158.802 5.67258 158.818 5.79643 158.818 6.04539V6.593H158.159L158.156 6.24146C158.156 6.07372 158.172 5.8325 158.053 5.69839C157.958 5.60035 157.812 5.57908 157.577 5.57908H156.875V6.593H156.221V3.80542H157.725C158.059 3.80542 158.305 3.81442 158.516 3.93894C158.723 4.06346 158.847 4.24524 158.847 4.55617C158.847 4.55617 158.847 4.24524 158.847 4.55617ZM159.893 6.593H159.226V3.80542H159.893V6.593ZM167.631 6.593H166.704L165.465 4.50076V6.593H164.134L163.88 5.97123H162.522L162.275 6.593H161.51C161.193 6.593 160.79 6.52136 160.563 6.28468C160.333 6.04799 160.213 5.7274 160.213 5.22048C160.213 4.80706 160.285 4.42913 160.566 4.13048C160.777 3.908 161.108 3.80542 161.558 3.80542H162.191V4.40272H161.572C161.333 4.40272 161.198 4.43888 161.069 4.56786C160.957 4.68523 160.881 4.90712 160.881 5.19929C160.881 5.49794 160.939 5.71327 161.06 5.85394C161.161 5.96425 161.344 5.99771 161.516 5.99771H161.81L162.731 3.80551H163.71L164.817 6.44216V3.80551H165.812L166.961 5.7469V3.80551H167.631V6.593ZM146.04 7.14052H147.157L147.409 6.52136H147.973L148.224 7.14052H150.421V6.66715L150.617 7.14254H151.758L151.954 6.66009V7.14052H157.415L157.413 6.12417H157.518C157.592 6.12677 157.614 6.13375 157.614 6.25828V7.14052H160.438V6.90392C160.666 7.02836 161.021 7.14052 161.487 7.14052H162.675L162.929 6.52136H163.493L163.742 7.14052H166.032V6.55239L166.378 7.14052H168.213V3.25269H166.397V3.71184L166.143 3.25269H164.28V3.71184L164.046 3.25269H161.529C161.108 3.25269 160.738 3.31263 160.438 3.4797V3.25269H158.701V3.4797C158.511 3.30751 158.252 3.25269 157.963 3.25269H151.618L151.192 4.25685L150.755 3.25269H148.756V3.71184L148.536 3.25269H146.832L146.04 5.10117V7.14052H146.04ZM169.29 9.19324H168.099C167.98 9.19324 167.901 9.19778 167.834 9.2436C167.765 9.28875 167.739 9.35576 167.739 9.44421C167.739 9.5494 167.797 9.62095 167.882 9.65189C167.951 9.67636 168.025 9.68351 168.134 9.68351L168.488 9.69317C168.845 9.70217 169.084 9.76481 169.23 9.91758C169.256 9.93885 169.272 9.96273 169.29 9.98661V9.19324ZM169.29 11.0315C169.131 11.2682 168.822 11.3881 168.403 11.3881H167.141V10.7902H168.398C168.523 10.7902 168.61 10.7735 168.663 10.7212C168.708 10.6781 168.74 10.6154 168.74 10.5394C168.74 10.4581 168.708 10.3936 168.66 10.355C168.613 10.3124 168.544 10.2931 168.43 10.2931C167.816 10.2718 167.05 10.3124 167.05 9.43009C167.05 9.02567 167.302 8.59997 167.988 8.59997H169.29V8.04522H168.08C167.715 8.04522 167.45 8.13434 167.262 8.2729V8.04522H165.473C165.187 8.04522 164.851 8.11752 164.692 8.2729V8.04522H161.497V8.2729C161.243 8.08591 160.814 8.04522 160.616 8.04522H158.508V8.2729C158.307 8.07431 157.859 8.04522 157.587 8.04522H155.228L154.688 8.64067L154.183 8.04522H150.659V11.9357H154.116L154.673 11.3309L155.196 11.9357L157.327 11.9377V11.0225H157.537C157.82 11.0269 158.153 11.0153 158.447 10.8857V11.9357H160.205V10.9217H160.29C160.398 10.9217 160.409 10.9262 160.409 11.0364V11.9356H165.748C166.087 11.9356 166.442 11.8471 166.638 11.6866V11.9356H168.332C168.684 11.9356 169.028 11.8852 169.29 11.7562V11.0315ZM166.683 9.91758C166.81 10.0519 166.878 10.2214 166.878 10.5083C166.878 11.1081 166.511 11.3881 165.851 11.3881H164.578V10.7902H165.846C165.97 10.7902 166.058 10.7735 166.113 10.7212C166.158 10.6781 166.191 10.6154 166.191 10.5394C166.191 10.4581 166.156 10.3936 166.111 10.355C166.061 10.3124 165.992 10.2931 165.878 10.2931C165.267 10.2718 164.501 10.3124 164.501 9.43009C164.501 9.02567 164.75 8.59997 165.436 8.59997H166.746V9.19341H165.547C165.428 9.19341 165.351 9.19795 165.285 9.24377C165.214 9.28892 165.187 9.35593 165.187 9.44438C165.187 9.54957 165.248 9.62112 165.33 9.65206C165.399 9.67653 165.473 9.68367 165.584 9.68367L165.936 9.69334C166.291 9.70217 166.535 9.76473 166.683 9.91758C166.683 9.91758 166.535 9.76473 166.683 9.91758ZM160.785 9.74539C160.697 9.79827 160.589 9.80281 160.462 9.80281H159.668V9.17659H160.473C160.589 9.17659 160.706 9.17911 160.785 9.22695C160.869 9.2721 160.92 9.35845 160.92 9.47776C160.92 9.59707 160.869 9.69317 160.785 9.74539C160.869 9.69317 160.785 9.74539 160.785 9.74539ZM161.179 10.0924C161.325 10.1471 161.444 10.2452 161.5 10.3265C161.592 10.4626 161.605 10.5896 161.608 10.8354V11.3881H160.952V11.0393C160.952 10.8715 160.968 10.6232 160.846 10.4935C160.751 10.3936 160.605 10.3698 160.366 10.3698H159.668V11.3881H159.011V8.59989H160.52C160.851 8.59989 161.092 8.61477 161.307 8.73147C161.513 8.85852 161.643 9.03256 161.643 9.35063C161.643 9.79567 161.351 10.0228 161.179 10.0924C161.351 10.0228 161.179 10.0924 161.179 10.0924ZM162.005 8.59989H164.187V9.17651H162.656V9.68342H164.149V10.2523H162.656V10.8071L164.187 10.8096V11.3881H162.005V8.59989ZM157.595 9.88664H156.75V9.17659H157.603C157.839 9.17659 158.002 9.27463 158.002 9.51846C158.002 9.7596 157.846 9.88664 157.595 9.88664ZM156.099 11.1345L155.096 9.9988L156.099 8.89913V11.1345ZM153.508 10.8071H151.901V10.2523H153.336V9.68342H151.901V9.17651H153.539L154.254 9.98905L153.508 10.8071ZM158.704 9.51846C158.704 10.293 158.137 10.4529 157.566 10.4529H156.75V11.3881H155.48L154.675 10.4651L153.839 11.3881H151.249V8.59989H153.878L154.683 9.51383L155.514 8.59989H157.603C158.121 8.59989 158.704 8.74627 158.704 9.51846C158.704 9.51846 158.704 8.74627 158.704 9.51846Z"
+                fill="white" />
+              <path
+                d="M138.6 0H118.018C117.223 0 116.578 0.644986 116.578 1.44062V13.5594C116.578 14.355 117.223 15 118.018 15H138.6C139.395 15 140.04 14.355 140.04 13.5594V1.44062C140.04 0.644986 139.395 0 138.6 0Z"
+                fill="url(#paint0_linear_306_6)" />
+              <path fill-rule="evenodd" clip-rule="evenodd"
+                d="M122.835 7.35678L122.94 6.94439C123.341 6.82342 124.16 6.76844 124.314 7.20282C124.402 7.45575 124.149 8.50597 124.1 8.81389L123.71 8.81939C123.622 8.70942 123.693 8.91287 123.633 8.64344C123.259 8.97885 122.461 8.92386 122.522 8.24754C122.582 7.57672 123.165 7.6647 123.798 7.56573C123.787 7.13684 123.248 7.25231 122.83 7.35128L122.835 7.35678ZM125.777 7.2908C125.42 7.2908 125.365 7.21382 125.051 7.35128C125.09 7.74168 125.293 7.58772 125.574 7.77467C126.107 8.12658 125.535 9.21529 124.265 8.74791L124.336 8.35202C124.694 8.4235 124.875 8.49498 125.15 8.34102C125.216 7.78567 124.232 8.14857 124.507 7.25781C124.655 6.77394 125.31 6.83992 125.848 6.88941L125.771 7.2908H125.777ZM120.3 6.44952L121.142 6.47702L121.23 7.79666L121.686 6.74095C121.84 6.36155 121.736 6.44402 122.703 6.45502L122.269 8.81389L121.796 8.80839L122.054 7.11485L121.356 8.81939L120.79 8.8029C120.773 8.47298 120.746 7.31279 120.658 7.09285L120.372 8.80839L119.877 8.8029L120.3 6.44952ZM128.323 11.4587L128.554 11.1838C128.092 11.1233 128.009 11.2552 127.8 10.8813L128.862 10.8703C128.928 10.7604 129.038 10.6559 129.093 10.5294C127.883 10.447 127.542 10.7549 127.35 10.227H129.291L129.505 9.8916L127.108 9.88061L126.998 9.60018L129.582 9.58919C129.73 9.50671 129.73 9.41323 129.769 9.24278L127.322 9.23728C126.882 9.24278 126.855 9.34175 126.772 8.94036H129.851L129.95 8.59945L129.049 8.58845L129.005 8.81939L128.488 8.7974L128.812 6.87841L129.302 6.94439C129.302 6.95539 129.313 6.99388 129.313 7.01037C129.313 7.02137 129.318 7.03787 129.318 7.04336L129.346 7.14234C129.483 6.97738 129.571 6.85641 129.89 6.86741L129.725 7.31279C129.631 7.43376 129.357 7.2963 129.241 7.62621L129.78 7.6482C129.84 7.3018 129.906 7.19732 130.005 6.9169L130.011 6.75194L126.64 6.75744L126.629 6.87841C126.811 6.87841 126.805 6.84542 126.91 6.93339L126.86 7.25781C126.519 7.34029 126.53 7.13684 126.497 7.58222C126.547 7.6647 126.486 7.62071 126.591 7.6482L126.805 7.6537C127.152 6.5265 128.185 6.77394 128.422 7.12584C128.548 7.31279 128.675 7.92863 128.361 7.97812L127.311 7.98911C127.361 8.54446 127.998 8.429 128.411 8.29153C128.394 8.52247 128.411 8.70942 128.196 8.7864C128.026 8.84688 127.668 8.83039 127.482 8.7864C127.02 8.68193 126.822 8.45099 126.789 7.95062L126.591 7.94512C126.409 7.86265 126.552 7.94512 126.459 7.71968C126.382 8.18156 126.173 8.47848 126.745 8.4125C126.712 8.68743 126.75 8.7809 126.448 8.81389C125.568 8.91836 125.854 8.33002 125.997 7.54373C126.222 6.29007 126.046 6.44402 126.684 6.45502L129.961 6.46052L129.895 6.11961L126.728 6.10861L126.789 5.83369L129.785 5.81719C129.708 5.34982 129.692 5.46529 128.603 5.46529H126.943C127.058 5.06389 126.998 5.17386 128.075 5.17386H129.532L129.379 4.82746L127.267 4.82196L127.41 4.53603L129.175 4.52504C128.95 4.06316 128.961 4.19512 127.712 4.17313C127.872 3.77724 128.152 3.87621 128.642 3.87621C128.504 3.65627 128.405 3.67276 128.323 3.48581C128.119 3.38134 127.938 3.19439 127.734 3.05143C126.178 1.95172 124.067 1.83625 122.373 2.66103C120.85 3.39784 119.355 5.10238 119.371 7.46125C119.393 10.8319 122.351 13.2897 125.7 12.7179C127.273 12.4484 127.668 11.8106 128.317 11.4532L128.323 11.4587Z"
+                fill="#E41D2C" />
+              <path fill-rule="evenodd" clip-rule="evenodd"
+                d="M131.913 6.9282C133.618 6.58179 133.337 7.42306 133.2 8.10488C133.156 8.30833 133.156 8.70972 132.996 8.81969C132.958 8.81969 132.733 8.82519 132.711 8.81419C132.557 8.75371 132.628 8.93516 132.606 8.65473C132.144 8.91866 131.413 8.97915 131.501 8.24234C131.572 7.654 132.166 7.56053 132.771 7.58802C132.749 7.15364 132.353 7.22512 131.803 7.36258L131.919 6.9282H131.913ZM133.596 6.87871L134.052 6.88421C134.058 6.8952 134.063 6.9117 134.063 6.9227L134.135 7.12614C134.217 6.99968 134.371 6.88971 134.613 6.88421L134.547 7.2746L134.322 7.36258C133.871 7.51104 133.898 8.07739 133.777 8.81969H133.266L133.596 6.87871ZM136.021 6.46082H136.488L136.087 8.82519C135.564 8.83069 135.691 8.85818 135.526 8.66023C135.185 9.1661 134.162 8.69872 134.476 7.654C134.707 6.87321 135.487 6.66427 135.872 7.12614L136.026 6.45532L136.021 6.46082ZM128.328 3.49161C128.411 3.67856 128.515 3.66207 128.647 3.88201C128.158 3.88201 127.877 3.77754 127.718 4.17893C128.966 4.20092 128.955 4.06896 129.18 4.53083L127.415 4.54183L127.272 4.82776L129.384 4.83325L129.538 5.17966H128.081C127.009 5.17966 127.064 5.07519 126.948 5.47108H128.609C129.697 5.47108 129.714 5.35561 129.791 5.82299L126.794 5.83949L126.734 6.11441L129.901 6.12541L129.967 6.46632L126.69 6.46082L126.646 6.76874L130.016 6.76324L130.011 6.9282C130.264 6.68626 130.22 6.55979 130.693 6.42233C131.083 6.31236 131.33 6.39484 131.715 6.47732L131.633 6.98318C130.973 6.78523 130.544 6.83472 130.39 7.51654C130.22 8.24784 130.797 8.52277 131.407 8.23135C131.352 8.76471 131.264 8.89667 130.638 8.81419C130.203 8.75921 130.071 8.55026 129.879 8.29183H129.093L129.049 8.59425L129.95 8.60525L129.851 8.94616H126.772C126.855 9.34755 126.882 9.24858 127.322 9.24308L129.769 9.24858C129.725 9.41353 129.73 9.51251 129.582 9.59498L126.998 9.60598L127.108 9.88641L129.505 9.8974L129.29 10.2328H127.349C127.542 10.7552 127.883 10.4528 129.093 10.5352C129.038 10.6617 128.928 10.7662 128.862 10.8761L127.8 10.8871C128.004 11.2555 128.092 11.1291 128.554 11.1896L128.323 11.4645C129.109 12.0418 129.719 12.5257 130.99 12.7456C132.144 12.9436 133.348 12.7236 134.278 12.2673C138.303 10.2823 138.193 4.56383 134.245 2.67233C132.826 1.99601 130.946 1.93553 129.477 2.70532C128.768 3.07372 128.598 3.33765 128.334 3.49711L128.328 3.49161Z"
+                fill="#F8B02B" />
+              <path fill-rule="evenodd" clip-rule="evenodd"
+                d="M119.877 8.80858L120.372 8.81407L120.658 7.09853C120.746 7.31847 120.773 8.47866 120.79 8.80858L121.356 8.82507L122.054 7.12053L121.796 8.81407L122.269 8.81957L122.703 6.4607C121.735 6.4497 121.84 6.36723 121.686 6.74663L121.23 7.80234L121.142 6.4827L120.3 6.4552L119.877 8.80858ZM135.196 8.37419C134.784 7.9508 135.135 7.24699 135.52 7.34047C135.9 7.43394 135.828 8.36319 135.196 8.37419ZM135.867 7.12602C135.482 6.66415 134.707 6.87309 134.47 7.65388C134.157 8.69311 135.179 9.16598 135.52 8.66011C135.685 8.85806 135.559 8.82507 136.081 8.82507L136.483 6.4607H136.015L135.861 7.13152L135.867 7.12602ZM132.089 8.37969C132.012 8.01129 132.353 7.86833 132.678 7.93431C132.694 8.30821 132.43 8.51165 132.089 8.37969ZM131.913 6.93358L131.798 7.36796C132.348 7.23599 132.749 7.16451 132.766 7.5934C132.161 7.56591 131.567 7.65938 131.495 8.24772C131.402 8.98453 132.139 8.92404 132.601 8.66011C132.623 8.94054 132.551 8.75909 132.705 8.81957C132.727 8.83057 132.952 8.82507 132.991 8.82507C133.156 8.7206 133.156 8.31371 133.194 8.11026C133.337 7.42294 133.612 6.58717 131.908 6.93358H131.913ZM123.709 7.91781C123.72 8.10476 123.687 8.24772 123.566 8.3412C123.484 8.40168 123.237 8.47316 123.138 8.37969C122.83 8.09926 123.407 7.91231 123.704 7.91781H123.709ZM122.835 7.35696C123.253 7.25799 123.792 7.14252 123.803 7.57141C123.171 7.67038 122.588 7.5824 122.527 8.25322C122.461 8.92954 123.259 8.98453 123.638 8.64912C123.698 8.91855 123.627 8.7151 123.715 8.82507L124.105 8.81957C124.155 8.50616 124.408 7.46143 124.32 7.2085C124.166 6.76862 123.352 6.8236 122.945 6.95007L122.841 7.36246L122.835 7.35696ZM127.393 7.63189C127.465 7.35146 127.586 7.23599 127.91 7.27998C128.026 7.44494 128.026 7.39545 128.048 7.63189H127.393ZM126.811 7.65938L126.789 7.9563C126.822 8.45667 127.025 8.68211 127.481 8.79208C127.668 8.83607 128.026 8.85256 128.196 8.79208C128.411 8.7206 128.394 8.52815 128.411 8.29721C127.998 8.43467 127.36 8.55014 127.311 7.99479L128.361 7.9838C128.675 7.93431 128.548 7.32397 128.422 7.13152C128.185 6.77962 127.152 6.53218 126.805 7.65938H126.811ZM130.011 6.92808C129.912 7.2085 129.846 7.31297 129.785 7.65938V7.9618L129.879 8.29721C130.071 8.55564 130.203 8.76459 130.638 8.81957C131.264 8.90205 131.352 8.77009 131.407 8.23673C130.792 8.52815 130.22 8.25322 130.39 7.52192C130.55 6.8346 130.979 6.79061 131.633 6.98856L131.715 6.4827C131.33 6.40572 131.083 6.32324 130.693 6.42771C130.22 6.55968 130.264 6.69164 130.011 6.93358V6.92808ZM125.848 6.88959C125.31 6.8456 124.655 6.77412 124.507 7.25799C124.232 8.14875 125.211 7.78585 125.15 8.3412C124.87 8.49516 124.694 8.42368 124.336 8.3522L124.265 8.74809C125.535 9.21547 126.101 8.13226 125.573 7.77485C125.293 7.5879 125.09 7.74736 125.051 7.35146C125.365 7.2085 125.414 7.29098 125.777 7.29098L125.854 6.88959H125.848Z"
+                fill="#FEFEFE" />
+              <path fill-rule="evenodd" clip-rule="evenodd"
+                d="M126.464 7.72539L126.503 7.59343C126.536 7.14805 126.525 7.35149 126.866 7.26901L126.915 6.9446C126.811 6.85662 126.816 6.88961 126.635 6.88961L126.646 6.76865L126.69 6.46073C126.052 6.44973 126.228 6.29577 126.002 7.54944C125.859 8.33573 125.574 8.92407 126.453 8.8196C126.75 8.78661 126.717 8.69313 126.75 8.41821C126.184 8.48419 126.393 8.18727 126.464 7.72539ZM129.049 8.59966L129.093 8.29724L129.148 7.96733L129.247 7.63742C129.368 7.3075 129.642 7.44497 129.73 7.324L129.895 6.87862C129.571 6.86762 129.483 6.98859 129.351 7.15354L129.324 7.05457C129.324 7.04907 129.318 7.03258 129.318 7.02158C129.318 7.01058 129.307 6.96659 129.307 6.9556L128.818 6.88961L128.493 8.8086L129.01 8.8306L129.054 8.59966H129.049ZM133.266 8.8196H133.777C133.898 8.0773 133.871 7.51095 134.322 7.36249L134.547 7.27451L134.613 6.88412C134.371 6.88961 134.217 6.99959 134.135 7.12605L134.063 6.92261C134.058 6.91161 134.058 6.89511 134.052 6.88412L133.596 6.87862L133.266 8.8196Z"
+                fill="#FEFEFE" />
+              <path fill-rule="evenodd" clip-rule="evenodd"
+                d="M135.196 8.37421C135.834 8.36321 135.905 7.43396 135.52 7.34048C135.13 7.24701 134.784 7.95082 135.196 8.37421Z"
+                fill="#F8B02B" />
+              <path fill-rule="evenodd" clip-rule="evenodd"
+                d="M123.709 7.91858C123.413 7.91308 122.835 8.10003 123.143 8.38045C123.242 8.46843 123.49 8.39695 123.572 8.34196C123.693 8.25399 123.72 8.10553 123.715 7.91858H123.709ZM129.093 8.29248L129.879 8.29797L129.785 7.96256H129.148L129.093 8.29248Z"
+                fill="#E41D2C" />
+              <path fill-rule="evenodd" clip-rule="evenodd"
+                d="M132.089 8.37964C132.436 8.5061 132.694 8.30816 132.678 7.93426C132.348 7.87377 132.012 8.01673 132.089 8.37964ZM129.148 7.96175H129.785V7.65933L129.246 7.63184L129.148 7.96175Z"
+                fill="#F8B02B" />
+              <path fill-rule="evenodd" clip-rule="evenodd"
+                d="M127.393 7.63248H128.048C128.031 7.40154 128.026 7.44553 127.91 7.28057C127.586 7.23658 127.465 7.35205 127.393 7.63248Z"
+                fill="#E41D2C" />
+              <path fill-rule="evenodd" clip-rule="evenodd"
+                d="M126.464 7.72535C126.558 7.95079 126.415 7.86832 126.596 7.95079L126.794 7.95629L126.816 7.65937L126.602 7.65387C126.492 7.63188 126.552 7.67037 126.508 7.58789L126.47 7.71986L126.464 7.72535Z"
+                fill="#F8B02B" />
+              <path d="M89.6879 12.7382L91.3633 3.31421H93.9811L92.3581 12.7382H89.6879Z" fill="#3C58BF" />
+              <path d="M89.6879 12.7382L91.8345 3.31421H93.9811L92.3581 12.7382H89.6879Z" fill="#293688" />
+              <path
+                d="M101.834 3.41885C101.311 3.20942 100.473 3 99.4261 3C96.8083 3 94.9235 4.30889 94.9235 6.1937C94.9235 7.60731 96.2324 8.34029 97.2795 8.81149C98.3266 9.28269 98.6407 9.59682 98.6407 10.0157C98.6407 10.6439 97.803 10.9581 97.0701 10.9581C96.0229 10.9581 95.447 10.801 94.557 10.4345L94.1905 10.2774L93.824 12.424C94.4523 12.6858 95.6041 12.9476 96.8083 12.9476C99.5831 12.9476 101.416 11.6387 101.416 9.64918C101.416 8.54971 100.735 7.71202 99.1643 7.03139C98.2219 6.56019 97.646 6.29841 97.646 5.82721C97.646 5.40836 98.1172 4.98952 99.1643 4.98952C100.054 4.98952 100.683 5.14659 101.154 5.35601L101.416 5.46072L101.834 3.41885Z"
+                fill="#3C58BF" />
+              <path
+                d="M101.834 3.41885C101.311 3.20942 100.473 3 99.4261 3C96.8083 3 95.3947 4.30889 95.3947 6.1937C95.3947 7.60731 96.2324 8.34029 97.2795 8.81149C98.3266 9.28269 98.6407 9.59682 98.6407 10.0157C98.6407 10.6439 97.803 10.9581 97.0701 10.9581C96.0229 10.9581 95.447 10.801 94.557 10.4345L94.1905 10.2774L93.824 12.424C94.4523 12.6858 95.6041 12.9476 96.8083 12.9476C99.5831 12.9476 101.416 11.6387 101.416 9.64918C101.416 8.54971 100.735 7.71202 99.1643 7.03139C98.2219 6.56019 97.646 6.29841 97.646 5.82721C97.646 5.40836 98.1172 4.98952 99.1643 4.98952C100.054 4.98952 100.683 5.14659 101.154 5.35601L101.416 5.46072L101.834 3.41885Z"
+                fill="#293688" />
+              <path
+                d="M106.337 3.31421C105.709 3.31421 105.238 3.36656 104.976 3.99483L101.049 12.7382H103.876L104.4 11.1676H107.751L108.065 12.7382H110.578L108.379 3.31421H106.337ZM105.133 9.5969C105.29 9.1257 106.18 6.82204 106.18 6.82204C106.18 6.82204 106.389 6.24613 106.547 5.87964L106.704 6.76969C106.704 6.76969 107.227 9.1257 107.332 9.64925H105.133V9.5969Z"
+                fill="#3C58BF" />
+              <path
+                d="M106.965 3.31421C106.337 3.31421 105.866 3.36656 105.604 3.99483L101.049 12.7382H103.876L104.4 11.1676H107.751L108.065 12.7382H110.578L108.379 3.31421H106.965ZM105.133 9.5969C105.342 9.07334 106.18 6.82204 106.18 6.82204C106.18 6.82204 106.389 6.24613 106.547 5.87964L106.704 6.76969C106.704 6.76969 107.227 9.1257 107.332 9.64925H105.133V9.5969Z"
+                fill="#293688" />
+              <path
+                d="M84.8712 9.91117L84.6095 8.54992C84.1382 6.97925 82.6199 5.25151 80.9445 4.41381L83.3006 12.7907H86.1278L90.3686 3.3667H87.5414L84.8712 9.91117Z"
+                fill="#3C58BF" />
+              <path
+                d="M84.8712 9.91117L84.6095 8.54992C84.1382 6.97925 82.6199 5.25151 80.9445 4.41381L83.3006 12.7907H86.1278L90.3686 3.3667H88.0649L84.8712 9.91117Z"
+                fill="#293688" />
+              <path
+                d="M77.5938 3.31421L78.065 3.41892C81.4157 4.20426 83.7194 6.19378 84.6094 8.54978L83.667 4.09955C83.51 3.47128 83.0387 3.31421 82.4628 3.31421H77.5938Z"
+                fill="#FFBC00" />
+              <path
+                d="M77.5938 3.31421C80.9445 4.09955 83.7194 6.14142 84.6094 8.49743L83.7194 4.78017C83.5623 4.1519 83.0387 3.78541 82.4628 3.78541L77.5938 3.31421Z"
+                fill="#F7981D" />
+              <path
+                d="M77.5938 3.31421C80.9445 4.09955 83.7194 6.14142 84.6094 8.49743L83.9812 6.45555C83.8241 5.82729 83.6147 5.19902 82.8817 4.93724L77.5938 3.31421Z"
+                fill="#ED7C00" />
+              <path
+                d="M87.489 9.5969L85.7089 7.81681L84.8712 9.80633L84.6618 8.49743C84.1906 6.92676 82.6722 5.19902 80.9969 4.36133L83.3529 12.7382H86.1801L87.489 9.5969ZM92.3581 12.7382L90.1068 10.4346L89.6879 12.7382H92.3581ZM98.379 9.49219C98.5884 9.70161 98.6931 9.85868 98.6407 10.0681C98.6407 10.6964 97.8031 11.0105 97.0701 11.0105C96.023 11.0105 95.447 10.8534 94.557 10.487L94.1905 10.3299L93.824 12.4765C94.4523 12.7382 95.6041 13 96.8083 13C98.4837 13 99.8449 12.5288 100.63 11.6911L98.379 9.49219ZM101.416 12.7382H103.876L104.4 11.1676H107.751L108.065 12.7382H110.578L109.688 8.91628L106.546 5.87964L106.704 6.71734C106.704 6.71734 107.227 9.07335 107.332 9.5969H105.133C105.342 9.07335 106.18 6.82205 106.18 6.82205C106.18 6.82205 106.389 6.24614 106.546 5.87964"
+                fill="#051244" />
+              <path
+                d="M65.4327 3.94785L67.8023 3.52132V12.7155H65.4327V3.94785ZM69.2241 3.94785V12.7155H71.5937V3.52132L69.2241 3.94785ZM62.1152 12.7155H64.4849V6.08051H62.1152V12.7155ZM45.907 6.98097C45.5753 6.98097 44.8644 6.93357 44.8644 6.27008C44.8644 5.5118 45.907 5.5118 46.2862 5.5118C46.9496 5.5118 47.8501 5.70137 48.4662 5.89094L49.1771 6.1279H49.2719V3.99524L49.1771 3.94785C48.4188 3.71089 47.5184 3.42653 45.9544 3.42653C43.2056 3.52132 42.2104 5.13266 42.2104 6.50704C42.2104 7.31271 42.5422 9.16102 45.7174 9.39798C46.0018 9.39798 46.7127 9.44537 46.7127 10.1089C46.7127 10.6776 46.0492 10.9619 45.054 10.9619C43.9639 10.9619 43.1583 10.6776 42.2104 10.4406V12.6207C43.1583 12.8576 44.2957 12.9998 45.5753 12.9998C48.2766 12.9998 49.5088 11.4832 49.5088 9.96669C49.5088 8.26056 48.1819 7.17054 45.907 6.98097ZM60.6461 5.93833C58.3712 5.98572 57.376 7.02836 57.376 9.01884V12.7155H59.7456V9.72973C59.7456 8.54492 59.7456 8.0236 61.1674 7.97621V5.98572C61.1674 5.89094 60.6461 5.93833 60.6461 5.93833ZM54.0585 6.08051C54.0111 6.08051 53.5846 7.26532 52.6367 8.40274V3.52132L50.2671 4.04263V12.7155H52.6367V10.1563C53.5846 11.2463 53.7742 12.7155 53.7742 12.7155H56.8073C56.5229 11.7676 55.1959 9.30319 55.1959 9.30319C56.3807 7.83403 56.9021 6.08051 56.9495 6.08051H54.0585ZM63.3 5.36962C63.9635 5.36962 64.4849 4.84831 64.4849 4.18481C64.4849 3.52132 63.9635 3 63.3 3C62.6365 3 62.1152 3.52132 62.1152 4.18481C62.1152 4.84831 62.6365 5.36962 63.3 5.36962Z"
+                fill="#B73091" />
+              <path
+                d="M66.38 3.75828L67.8017 3.52132V12.7155H65.4321L66.38 3.75828ZM70.0766 3.80567L69.2235 12.7155H71.5931V3.52132L70.0766 3.80567ZM62.1146 12.7155H64.4843V6.08051H63.489L62.1146 12.7155ZM42.2098 6.50704C42.2098 7.31271 42.5416 9.16102 45.6695 9.39798C45.9538 9.39798 47.0912 9.44537 47.0912 10.1089C47.0912 10.6776 45.9538 10.9619 45.006 10.9619C43.9159 10.9619 43.1103 10.6776 42.1624 10.4406V12.6207C43.1103 12.8576 44.2477 12.9998 45.5273 12.9998C48.2286 12.9998 49.4609 11.4832 49.4609 9.96669C49.4609 8.26056 48.1339 7.17054 45.859 6.98097C45.5273 6.98097 44.8638 6.93357 44.8638 6.27008C44.8638 5.5118 45.9064 5.5118 46.2856 5.5118C46.9491 5.5118 47.8495 5.70137 48.4656 5.89094L49.1765 6.1279H49.2713V3.99524L49.1765 3.94785C48.4182 3.71089 47.5178 3.42653 45.9538 3.42653L42.2098 6.50704ZM57.3754 8.92406V12.7155H59.745V9.72973C59.745 8.54492 59.745 8.0236 61.1668 7.97621V5.98572C61.1668 5.93833 60.6455 5.93833 60.6455 5.93833L57.3754 8.92406ZM50.2665 12.7155H52.6361V10.1563C53.584 11.2463 54.674 12.7155 54.674 12.7155H56.7593C56.4749 11.7676 55.1479 9.30319 55.1479 9.30319C56.3328 7.83403 56.8541 6.08051 56.9015 6.08051H55.4797C55.4323 6.08051 53.584 7.26532 52.6361 8.40274V3.71089L50.2665 12.7155ZM63.2994 5.36962C63.9629 5.36962 64.4843 4.84831 64.4843 4.18481C64.4843 3.52132 63.9629 3 63.2994 3"
+                fill="#862165" />
+              <path fill-rule="evenodd" clip-rule="evenodd"
+                d="M28.2802 4.76485C27.3978 4.76485 26.692 5.00014 26.1037 5.11779L25.9273 6.47071C26.2214 6.35307 27.0449 6.11778 27.7508 6.05895C28.4566 6.05895 28.8684 6.1766 28.7508 6.82365C26.6331 6.82365 25.2214 7.23541 24.9273 8.64716C24.5155 11.0001 27.1037 11.0589 28.1037 10.0001L27.9861 10.6471H29.8684L30.6919 6.82365C30.986 5.23543 29.5743 4.70603 28.2802 4.76485ZM28.3978 8.70598C28.2802 9.17656 27.8684 9.35303 27.3978 9.41185C26.9861 9.41185 26.6331 9.17656 26.8684 8.70598C27.1037 8.35304 27.6331 8.35304 28.0449 8.35304H28.5155C28.4566 8.29422 28.3978 8.52951 28.3978 8.70598Z"
+                fill="#32A6CE" />
+              <path fill-rule="evenodd" clip-rule="evenodd"
+                d="M25.9273 6.47077C26.2214 6.35312 27.0449 6.11783 27.7508 6.05901C28.4566 6.05901 28.8684 6.17665 28.7508 6.82371C26.6331 6.82371 25.2214 7.23546 24.9273 8.64721C24.5155 11.0001 27.1037 11.0589 28.1037 10.0001L27.9861 10.6472H29.8684L30.6919 6.82371C31.0448 5.23549 29.5743 4.82373 28.2802 4.82373L25.9273 6.47077ZM28.3978 8.70603C28.2802 9.17662 27.8684 9.35309 27.3978 9.41191C26.9861 9.41191 26.6331 9.17662 26.8684 8.70603C27.1037 8.3531 27.6331 8.3531 28.0449 8.3531H28.5155C28.4566 8.29427 28.3978 8.52957 28.3978 8.70603Z"
+                fill="#1A80AD" />
+              <path fill-rule="evenodd" clip-rule="evenodd" d="M32.2802 3L30.7508 10.647H32.6331L34.2213 3H32.2802Z"
+                fill="#32A6CE" />
+              <path fill-rule="evenodd" clip-rule="evenodd"
+                d="M33.6331 3L30.7508 10.647H32.6331L34.2213 3H32.2802H33.6331Z" fill="#1A80AD" />
+              <path fill-rule="evenodd" clip-rule="evenodd"
+                d="M23.5155 3H20.045L18.5156 10.647H20.5744L21.1038 8.29405H22.5743C23.9861 8.29405 25.1625 7.47053 25.4567 5.99996C25.7508 4.2941 24.5155 3 23.5155 3ZM23.4567 5.64703C23.339 6.17643 22.8096 6.52937 22.2802 6.52937H21.3391L21.7508 4.76468H22.7508C23.2802 4.76468 23.5743 5.11762 23.4567 5.64703Z"
+                fill="#32A6CE" />
+              <path fill-rule="evenodd" clip-rule="evenodd"
+                d="M23.5155 3H21.1626L18.4568 10.647H20.5156L21.045 8.29405H22.5156C23.9273 8.29405 25.1038 7.47053 25.3979 5.99996C25.7508 4.2941 24.5155 3 23.5155 3ZM23.4567 5.64703C23.3391 6.17643 22.8097 6.52937 22.2803 6.52937H21.3391L21.7509 4.76468H22.7509C23.2803 4.76468 23.5744 5.11762 23.4567 5.64703Z"
+                fill="#1A80AD" />
+              <path fill-rule="evenodd" clip-rule="evenodd"
+                d="M9.92745 4.76485C9.04511 4.76485 8.33924 5.00014 7.80983 5.11779L7.63336 6.47071C7.86865 6.35307 8.751 6.11778 9.45687 6.05895C10.1627 6.05895 10.5745 6.1766 10.4569 6.82365C8.39806 6.82365 6.98631 7.23541 6.6922 8.64716C6.28044 11.0001 8.80982 11.0589 9.80981 10.0001L9.69216 10.6471H11.5745L12.398 6.82365C12.6921 5.23543 11.2216 4.70603 9.92745 4.76485ZM10.1039 8.70598C9.98628 9.17656 9.57452 9.35303 9.10393 9.41185C8.69217 9.41185 8.33924 9.17656 8.63335 8.70598C8.86864 8.35304 9.39805 8.35304 9.75098 8.35304H10.2216C10.1627 8.29422 10.1039 8.52951 10.1039 8.70598Z"
+                fill="#21789E" />
+              <path fill-rule="evenodd" clip-rule="evenodd"
+                d="M7.6922 6.47077C7.92749 6.35312 8.80983 6.11783 9.51571 6.05901C10.2216 6.05901 10.6333 6.17665 10.5157 6.82371C8.4569 6.82371 7.04515 7.23546 6.75104 8.64721C6.33928 11.0001 8.86866 11.0589 9.86864 10.0001L9.69218 10.6472H11.5745L12.398 6.82371C12.751 5.23549 11.2804 4.82373 9.98629 4.82373L7.6922 6.47077ZM10.1039 8.70603C9.98629 9.17662 9.57453 9.35309 9.10395 9.41191C8.69219 9.41191 8.33925 9.17662 8.63337 8.70603C8.86866 8.3531 9.39806 8.3531 9.751 8.3531H10.2216C10.1628 8.29427 10.1039 8.52957 10.1039 8.70603Z"
+                fill="#1A5B80" />
+              <path fill-rule="evenodd" clip-rule="evenodd"
+                d="M13.1627 4.76465H15.0451L15.3392 8.05872L17.2215 4.76465H19.1626L14.6921 12.9998H12.5745L13.9274 10.5293L13.1627 4.76465Z"
+                fill="#21789E" />
+              <path fill-rule="evenodd" clip-rule="evenodd"
+                d="M15.0451 4.88229L15.3392 8.11755L17.2215 4.76465H19.1626L14.6921 12.9998H12.5745L13.9274 10.5881"
+                fill="#1A5B80" />
+              <path fill-rule="evenodd" clip-rule="evenodd"
+                d="M5.28044 3H1.75107L0.22168 10.647H2.28048L2.80988 8.29405H4.28045C5.6922 8.29405 6.86866 7.47053 7.16277 5.99996C7.51571 4.2941 6.28043 3 5.28044 3ZM5.22162 5.64703C5.10397 6.17643 4.57457 6.52937 4.04516 6.52937H3.104L3.51576 4.76468H4.51574C5.04515 4.76468 5.33926 5.11762 5.22162 5.64703Z"
+                fill="#21789E" />
+              <path fill-rule="evenodd" clip-rule="evenodd"
+                d="M5.28044 3H3.69222L0.22168 10.647H2.28048L2.80988 8.29405H4.28045C5.6922 8.29405 6.86866 7.47053 7.16277 5.99996C7.51571 4.2941 6.28043 3 5.28044 3ZM5.22162 5.64703C5.10397 6.17643 4.57457 6.52937 4.04516 6.52937H3.104L3.51576 4.76468H4.51574C5.04515 4.76468 5.33926 5.11762 5.22162 5.64703Z"
+                fill="#1A5B80" />
+              <path fill-rule="evenodd" clip-rule="evenodd"
+                d="M9.57449 6.82345C7.98627 6.94109 6.92746 7.41167 6.69217 8.58813C6.28041 10.941 8.80979 10.9999 9.80978 9.94105L9.69213 10.6469H11.5745L11.8686 9.23518L9.57449 6.82345ZM10.1039 8.70578C9.98625 9.17636 9.57449 9.35283 9.10391 9.41165C8.69215 9.41165 8.33921 9.17636 8.63332 8.70578C8.86862 8.35284 9.39802 8.35284 9.75096 8.35284H10.2215C10.1627 8.29402 10.1039 8.52931 10.1039 8.70578ZM15.4568 7.9999L15.3391 8.17637L16.5744 9.35283L19.1626 4.76465H17.2215L15.4568 7.9999ZM2.28046 10.6469L2.80987 8.29402L0.398132 10.6469H2.28046Z"
+                fill="#06435E" />
+              <path fill-rule="evenodd" clip-rule="evenodd"
+                d="M20.5155 10.647L21.0449 8.17641V8.23523L18.6332 10.647H20.5155ZM27.8684 6.82349C26.2801 6.94113 25.2213 7.41171 24.986 8.58817C24.5743 10.9411 27.1625 10.9999 28.1625 9.94109L27.986 10.647H29.8683L30.1624 9.23522L27.8684 6.82349ZM28.3978 8.70582C28.2801 9.1764 27.8684 9.35287 27.3978 9.41169C26.986 9.41169 26.6331 9.1764 26.8684 8.70582C27.1037 8.35288 27.6331 8.35288 28.0448 8.35288H28.5154C28.4566 8.29406 28.3978 8.52935 28.3978 8.70582ZM32.1036 7.17642L30.7507 10.647H32.633L33.1624 8.29406L32.1036 7.17642Z"
+                fill="#2273AA" />
+              <path
+                d="M34.633 4.2351V3.41158H34.3389V3.29393H35.1036V3.41158H34.8095V4.2351H34.633ZM35.2213 4.2351V3.29393H35.3977L35.633 3.94098C35.633 3.9998 35.6919 4.05863 35.6919 4.05863C35.6919 3.9998 35.6919 3.9998 35.7507 3.88216L35.986 3.23511H36.1624V4.17627H36.0448V3.35275L35.7507 4.17627H35.5742L35.2801 3.35275V4.17627H35.2213V4.2351Z"
+                fill="#32A6CE" />
+              <defs>
+                <linearGradient id="paint0_linear_306_6" x1="128.309" y1="0.00208944" x2="128.309" y2="15.0032"
+                  gradientUnits="userSpaceOnUse">
+                  <stop stop-color="#1D4C80" />
+                  <stop offset="1" stop-color="#173A63" />
+                </linearGradient>
+              </defs>
+            </svg>
+          </div>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+</body>
+
+</html>

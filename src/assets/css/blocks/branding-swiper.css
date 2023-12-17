@@ -1,0 +1,58 @@
+.swiper-branding .branding-button-prev {
+    width: 40px;
+    height: 40px;
+    border: 1px solid black;
+    position: absolute;
+    top: calc(50% - 75px);
+    left: 0;
+    overflow: hidden;
+}
+
+.swiper-branding .branding-button-next {
+    width: 40px;
+    height: 40px;
+    border: 1px solid black;
+    position: absolute;
+    top: calc(50% - 75px);
+    right: 0;
+    overflow: hidden;
+}
+
+.swiper-branding {
+    position: relative;
+    width: calc(100% + 140px);
+    padding: 0 70px;
+    margin-left: -70px;
+}
+
+.swiper.branding-swiper {
+    padding-bottom: 100px;
+}
+
+
+/* .branding-swiper .pagination-branding {
+    bottom: 0;
+} */
+
+.swiper-branding .pagination-branding .swiper-pagination-bullet {
+    background: transparent;
+    width: 14px;
+    height: 14px;
+    border: 1px solid black;
+    opacity: 1;
+}
+
+.swiper-branding .pagination-branding .swiper-pagination-bullet-active {
+    transform: scale(1.2);
+}
+
+.swiper-branding .pagination-branding .swiper-pagination-bullet-active::after {
+    background: black;
+    position: absolute;
+    width: 8px;
+    height: 8px;
+    top: 2px;
+    left: 2px;
+    content: "";
+    border-radius: 50%;
+}

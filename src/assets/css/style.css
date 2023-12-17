@@ -1,0 +1,35 @@
+@import "./abstrack/viratible.css";
+@import "./abstrack/fonts.css";
+
+@import "./base/normalize.css";
+@import "./base/generic.css";
+
+@import "./blocks/conteiner.css";
+@import "./blocks/header.css";
+@import "./blocks/logo.css";
+@import "./blocks/nav.css";
+@import "./blocks/header-button.css";
+@import "./blocks/collections.css";
+@import "./blocks/collection-card.css";
+@import "./blocks/product-card.css";
+@import "./blocks/products.css";
+@import "./blocks/timerSale-card.css";
+@import "./blocks/timerSale.css";
+@import "./blocks/branding-info.css";
+@import "./blocks/branding.css";
+@import "./blocks/customer.css";
+@import "./blocks/customer-info.css";
+@import "./blocks/latest-news.css";
+@import "./blocks/latest-news-card.css";
+@import "./blocks/shop-policy-card.css";
+@import "./blocks/instagram-photo.css";
+@import "./blocks/instagram-follow.css";
+@import "./blocks/footer.css";
+@import "./blocks/footerlist.css";
+@import "./blocks/payment_system.css";
+@import "./blocks/products_slider.css";
+@import "./blocks/branding-swiper.css";
+@import "./blocks/timer-swiper.css";
+@import "./blocks/customerSliders.css";
+@import "./blocks/trends.css";
+@import "./blocks/trendsSlider.css";

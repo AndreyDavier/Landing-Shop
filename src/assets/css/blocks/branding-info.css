@@ -1,0 +1,24 @@
+.branding-header {
+    text-align: center;
+    font-size: 30px;
+    font-weight: 600;
+    color: var(--carbon-color);
+}
+
+
+.branding-main-info {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.branding-text {
+    text-align: center;
+    width: 55%;
+}
+
+.branding-list {
+    display: flex;
+    margin-top: 27px;
+}
+

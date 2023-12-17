@@ -1,0 +1,11 @@
+:root {
+    --conteiner-width: 1440px;
+    --conteiner-gap: 135px;
+    --hex-color: #023047;
+    --white-color: #FFF;
+    --carbon-color: #333;
+}
+
+.color-dark-blue {
+    background: var(--hex-color);
+}
